@@ -1252,3 +1252,568 @@ in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventL
 in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
 in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
 in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (851)
+2014/08/11 11:40:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rest".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('rest')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('rest')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/rest')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/tasks/rest
+---
+2014/08/11 14:59:39 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+HTTP_REFERER=http://taskybird.dopice.sk/index.php/tasks/admin
+---
+2014/08/11 14:59:51 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+HTTP_REFERER=http://taskybird.dopice.sk/index.php/tasks/admin
+---
+2014/08/11 14:59:57 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+HTTP_REFERER=http://taskybird.dopice.sk/index.php/tasks/admin
+---
+2014/08/11 15:00:53 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+HTTP_REFERER=http://taskybird.dopice.sk/index.php/tasks/admin
+---
+2014/08/11 15:00:55 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+HTTP_REFERER=http://taskybird.dopice.sk/index.php/tasks/admin
+---
+2014/08/11 15:01:06 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+HTTP_REFERER=http://taskybird.dopice.sk/index.php/tasks/admin
+---
+2014/08/11 15:04:01 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+HTTP_REFERER=http://taskybird.dopice.sk/index.php/tasks/admin
+---
+2014/08/11 15:04:36 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 15:05:11 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 15:05:33 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 15:05:34 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 15:13:59 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 15:15:08 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+HTTP_REFERER=http://taskybird.dopice.sk/index.php/tasks/admin
+---
+2014/08/11 15:26:23 [error] [php] Use of undefined constant req - assumed 'req' (C:\xampp\htdocs\taskybird\protected\controllers\TasksController.php:42)
+Stack trace:
+#0 unknown(0): ERestBehavior->ERestInit()
+#1 C:\xampp\htdocs\yii\framework\base\CComponent.php(261): call_user_func_array()
+#2 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(34): TasksController->__call()
+#3 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(34): TasksController->ERestInit()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): ERestFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): TasksController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): TasksController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TasksController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\taskybird\index.php(13): CWebApplication->run()
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+in C:\xampp\htdocs\taskybird\protected\controllers\TasksController.php (42)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php (73)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php (51)
+2014/08/11 15:27:08 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+HTTP_REFERER=http://taskybird.dopice.sk/index.php/tasks/admin
+---
+2014/08/11 15:27:13 [error] [php] Use of undefined constant req - assumed 'req' (C:\xampp\htdocs\taskybird\protected\controllers\TasksController.php:42)
+Stack trace:
+#0 unknown(0): ERestBehavior->ERestInit()
+#1 C:\xampp\htdocs\yii\framework\base\CComponent.php(261): call_user_func_array()
+#2 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(34): TasksController->__call()
+#3 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(34): TasksController->ERestInit()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): ERestFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): TasksController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): TasksController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TasksController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\taskybird\index.php(13): CWebApplication->run()
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+in C:\xampp\htdocs\taskybird\protected\controllers\TasksController.php (42)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php (73)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php (51)
+2014/08/11 15:29:07 [error] [php] Use of undefined constant req - assumed 'req' (C:\xampp\htdocs\taskybird\protected\controllers\TasksController.php:42)
+Stack trace:
+#0 unknown(0): ERestBehavior->ERestInit()
+#1 C:\xampp\htdocs\yii\framework\base\CComponent.php(261): call_user_func_array()
+#2 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(34): TasksController->__call()
+#3 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(34): TasksController->ERestInit()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): ERestFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): TasksController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): TasksController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TasksController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\taskybird\index.php(13): CWebApplication->run()
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+in C:\xampp\htdocs\taskybird\protected\controllers\TasksController.php (42)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php (73)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php (51)
+2014/08/11 15:29:20 [error] [php] Use of undefined constant req - assumed 'req' (C:\xampp\htdocs\taskybird\protected\controllers\TasksController.php:34)
+Stack trace:
+#0 unknown(0): ERestBehavior->ERestInit()
+#1 C:\xampp\htdocs\yii\framework\base\CComponent.php(261): call_user_func_array()
+#2 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(34): TasksController->__call()
+#3 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(34): TasksController->ERestInit()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): ERestFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): TasksController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): TasksController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TasksController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\taskybird\index.php(13): CWebApplication->run()
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+in C:\xampp\htdocs\taskybird\protected\controllers\TasksController.php (34)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php (73)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php (51)
+2014/08/11 15:29:30 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+HTTP_REFERER=http://taskybird.dopice.sk/
+---
+2014/08/11 15:29:36 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+HTTP_REFERER=http://taskybird.dopice.sk/
+---
+2014/08/11 15:30:03 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+HTTP_REFERER=http://taskybird.dopice.sk/
+---
+2014/08/11 15:30:15 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+HTTP_REFERER=http://taskybird.dopice.sk/
+---
+2014/08/11 15:30:23 [error] [php] Use of undefined constant req - assumed 'req' (C:\xampp\htdocs\taskybird\protected\controllers\TasksController.php:43)
+Stack trace:
+#0 unknown(0): ERestBehavior->ERestInit()
+#1 C:\xampp\htdocs\yii\framework\base\CComponent.php(261): call_user_func_array()
+#2 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(34): TasksController->__call()
+#3 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(34): TasksController->ERestInit()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): ERestFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): TasksController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): TasksController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TasksController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\taskybird\index.php(13): CWebApplication->run()
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+in C:\xampp\htdocs\taskybird\protected\controllers\TasksController.php (43)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php (73)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php (51)
+2014/08/11 15:30:48 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+HTTP_REFERER=http://taskybird.dopice.sk/
+---
+2014/08/11 15:36:53 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+HTTP_REFERER=http://taskybird.dopice.sk/
+---
+2014/08/11 15:36:55 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+HTTP_REFERER=http://taskybird.dopice.sk/
+---
+2014/08/11 15:40:11 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+HTTP_REFERER=http://taskybird.dopice.sk/
+---
+2014/08/11 15:40:13 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+HTTP_REFERER=http://taskybird.dopice.sk/
+---
+2014/08/11 15:40:35 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+HTTP_REFERER=http://taskybird.dopice.sk/
+---
+2014/08/11 15:40:45 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Unauthorized' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php:81
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/2
+HTTP_REFERER=http://taskybird.dopice.sk/
+---

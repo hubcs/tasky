@@ -12,7 +12,7 @@ class TasksController extends Controller
 	 * @return array action filters
 	 */
 	public function filters()
-{
+	{
         return array(
             'accessControl', // perform access control for CRUD operations
             array(
@@ -20,7 +20,7 @@ class TasksController extends Controller
                 REST.GET, REST.PUT, REST.POST, REST.DELETE'
             ),
         );
-}
+	}
 	
 	public function actions()
 	{
@@ -28,6 +28,24 @@ class TasksController extends Controller
             'REST.'=>'ext.RestfullYii.actions.ERestActionProvider',
         );
 	}
+	
+	public function restEvents()
+    {
+	
+        $this->onRest('req.cors.access.control.allow.origin', function() {
+            return ['http://taskybird.dopice.sk']; //List of sites allowed to make CORS requests 
+        });
+		
+		
+		$this->onRest('req.cors.access.control.allow.methods', function() {
+			return ['GET', 'POST', 'PUT', 'DELETE']; //List of allowed http methods (verbs) 
+        });
+		
+		$this->onRest('req.auth.ajax.user', function() { // THIS ALLOWS EVERYONE TO DO EVERYTHING
+			return true;
+		});
+		
+    }
 
 	/**
 	 * Specifies the access control rules.

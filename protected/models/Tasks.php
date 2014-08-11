@@ -56,7 +56,7 @@ class Tasks extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'message_id' => 'Message',
+			'message_id' => 'Message-ID',
 			'name' => 'Name',
 			'note' => 'Note',
 			'status' => 'Status',
