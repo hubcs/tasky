@@ -12,11 +12,21 @@ class TasksController extends Controller
 	 * @return array action filters
 	 */
 	public function filters()
+{
+        return array(
+            'accessControl', // perform access control for CRUD operations
+            array(
+                'ext.RestfullYii.filters.ERestFilter + 
+                REST.GET, REST.PUT, REST.POST, REST.DELETE'
+            ),
+        );
+}
+	
+	public function actions()
 	{
-		return array(
-			'accessControl', // perform access control for CRUD operations
-			'postOnly + delete', // we only allow deletion via POST request
-		);
+        return array(
+            'REST.'=>'ext.RestfullYii.actions.ERestActionProvider',
+        );
 	}
 
 	/**
@@ -28,7 +38,7 @@ class TasksController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','REST.GET', 'REST.PUT', 'REST.POST', 'REST.DELETE'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions

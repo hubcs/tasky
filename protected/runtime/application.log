@@ -326,3 +326,929 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/taskybird/index.php/tasks/api/list
 ---
+2014/08/11 09:26:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/taskybird/index.php/api
+---
+2014/08/11 09:26:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "task/REST.GET".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('task/REST.GET')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/taskybird/index.php/api/task
+---
+2014/08/11 09:26:33 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:27:52 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:27:53 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:27:54 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:27:54 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:27:55 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:27:55 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:27:55 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:27:55 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:49:42 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:49:43 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:49:45 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:49:46 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:50:26 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:50:28 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:51:44 [error] [exception.CException] exception 'CException' with message 'Alias "ext.RestfullYii.actions.ERestActionProvider.php" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:51:57 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:52:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:53:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/taskybird/index.php/api
+---
+2014/08/11 09:53:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "task/REST.GET".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('task/REST.GET')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/taskybird/index.php/api/task
+---
+2014/08/11 09:53:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:53:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "taskss/REST.GET".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('taskss/REST.GET')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/taskybird/index.php/api/taskss
+---
+2014/08/11 09:53:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:53:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "task/REST.GET".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('task/REST.GET')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/taskybird/index.php/api/task
+---
+2014/08/11 09:53:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:56:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:57:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:59:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 09:59:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:00:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/index.php/api/tasks".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/index.php/a...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/taskybird/index.php/api/index.php/api/tasks
+HTTP_REFERER=http://localhost/taskybird/index.php/api/tasks
+---
+2014/08/11 10:01:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+HTTP_REFERER=http://localhost/taskybird/index.php/api/tasks
+---
+2014/08/11 10:02:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:04:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:05:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:05:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:06:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:06:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:06:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "rep/REST.GET".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('rep/REST.GET')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/taskybird/index.php/api/rep
+---
+2014/08/11 10:06:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "x/REST.GET".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('x/REST.GET')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/taskybird/index.php/api/x
+---
+2014/08/11 10:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/tasks/REST.GET
+---
+2014/08/11 10:11:40 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/update')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/tasks/update
+---
+2014/08/11 10:11:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Update')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/Update')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/taskybird/index.php/tasks/Update
+---
+2014/08/11 10:11:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "restget".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('restget')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('restget')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/restget')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/tasks/restget
+---
+2014/08/11 10:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "restget".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('restget')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('restget')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/restget')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/tasks/restget
+---
+2014/08/11 10:12:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('rest')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/rest')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/tasks/rest
+---
+2014/08/11 10:13:16 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.behaviors.ERestBehavior" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\YiiBase.php(196): YiiBase::import('RestfullYii.beh...', true)
+#1 C:\xampp\htdocs\yii\framework\base\CComponent.php(329): YiiBase::createComponent('RestfullYii.beh...')
+#2 C:\xampp\htdocs\yii\framework\base\CComponent.php(298): CComponent->attachBehavior('ERestBehavior', 'RestfullYii.beh...')
+#3 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(33): CComponent->attachBehaviors(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('rest')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/rest')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/taskybird/index.php/tasks/rest
+---
+2014/08/11 10:15:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('rest')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/rest')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/tasks/rest
+---
+2014/08/11 10:15:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('rest')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/rest')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/tasks/rest
+---
+2014/08/11 10:15:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('rest')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/rest')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/tasks/rest
+---
+2014/08/11 10:15:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('rest')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/rest')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/tasks/rest
+---
+2014/08/11 10:15:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('rest')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/rest')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/tasks/rest
+---
+2014/08/11 10:21:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:21:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:21:42 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:22:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:22:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:22:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:22:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:22:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:22:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:22:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:22:38 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:24:34 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:24:35 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:29:00 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:37:23 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:37:52 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:37:53 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\xampp\htdocs\yii\framework\YiiBase.php(320): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+---
+2014/08/11 10:38:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "x/REST.GET".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('x/REST.GET')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/taskybird/index.php/api/x
+---
+2014/08/11 11:00:05 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (851)
+2014/08/11 11:00:38 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (851)
+2014/08/11 11:00:38 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'new_messageid' for key 'message_id'. The SQL statement executed was: INSERT INTO `tasks` (`message_id`, `name`, `note`, `status`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (851)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\Eventor\Eventor.php (170)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php (109)
+2014/08/11 11:00:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'new_messageid' for key 'message_id'. The SQL statement executed was: INSERT INTO `tasks` (`message_id`, `name`, `note`, `status`) VALUES (:yp0, :yp1, :yp2, :yp3)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php(851): CActiveRecord->save()
+#3 [internal function]: ERestEventListenerRegistry->{closure}(Object(Tasks))
+#4 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit('model.save', Array)
+#6 [internal function]: ERestBehavior->emitRest('model.save', Array)
+#7 C:\xampp\htdocs\yii\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(66): CComponent->__call('emitRest', Array)
+#9 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(66): TasksController->emitRest('model.save', Array)
+#10 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(31): EActionRestPOST->handlePost()
+#11 [internal function]: EActionRestPOST->run(NULL, NULL, NULL)
+#12 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPOST), Array)
+#13 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPOST), Object(ReflectionMethod), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPOST))
+#16 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPOST), Array)
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.POST')
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.POST')
+#27 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/11 11:00:52 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (851)
+2014/08/11 11:05:26 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (851)
