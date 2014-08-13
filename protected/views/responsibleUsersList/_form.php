@@ -26,6 +26,18 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->labelEx($model,'password_hash'); ?>
+		<?php echo $form->textField($model,'password_hash',array('size'=>60,'maxlength'=>64)); ?>
+		<?php echo $form->error($model,'password_hash'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'password_repeat'); ?>
+		<?php echo $form->textField($model,'password_repeat',array('size'=>60,'maxlength'=>64)); ?>
+		<?php echo $form->error($model,'password_repeat'); ?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->labelEx($model,'active'); ?>
 		<?php echo $form->textField($model,'active'); ?>
 		<?php echo $form->error($model,'active'); ?>

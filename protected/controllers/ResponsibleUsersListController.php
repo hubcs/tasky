@@ -70,6 +70,9 @@ class ResponsibleUsersListController extends Controller
 		if(isset($_POST['ResponsibleUsersList']))
 		{
 			$model->attributes=$_POST['ResponsibleUsersList'];
+			$salt = openssl_random_pseudo_bytes(22);
+			$salt = '$2a$%13$' . strtr($salt, array('_' => '.', '~' => '/'));
+			$model->password_hash = crypt($model->password_hash, $salt);
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -94,6 +97,9 @@ class ResponsibleUsersListController extends Controller
 		if(isset($_POST['ResponsibleUsersList']))
 		{
 			$model->attributes=$_POST['ResponsibleUsersList'];
+			$salt = openssl_random_pseudo_bytes(22);
+			$salt = '$2a$%13$' . strtr($salt, array('_' => '.', '~' => '/'));
+			$model->password_hash = crypt($model->password_hash, $salt);
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -170,4 +176,5 @@ class ResponsibleUsersListController extends Controller
 			Yii::app()->end();
 		}
 	}
+	
 }

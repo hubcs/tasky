@@ -1,28 +1,23 @@
 <?php
 
 /**
- * This is the model class for table "responsible_users_list".
+ * This is the model class for table "thunderbird_clients".
  *
- * The followings are the available columns in table 'responsible_users_list':
- * @property integer $id
- * @property string $name
- * @property string $password_hash
- * @property string $password_repeat
- * @property integer $active
+ * The followings are the available columns in table 'thunderbird_clients':
+ * @property integer $owner_id
+ * @property string $installation_id
  *
  * The followings are the available model relations:
- * @property ThunderbirdClients[] $thunderbirdClients
+ * @property ResponsibleUsersList $owner
  */
-class ResponsibleUsersList extends CActiveRecord
+class ThunderbirdClients extends CActiveRecord
 {
-	public $password_repeat;
-
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'responsible_users_list';
+		return 'thunderbird_clients';
 	}
 
 	/**
@@ -33,14 +28,12 @@ class ResponsibleUsersList extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, active, password_hash, password_repeat', 'required'),
-			array('active', 'numerical', 'integerOnly'=>true),
-			array('password_hash', 'length', 'min'=>6, 'max'=>64, 'on'=>'register, recover'),
-			array('password_repeat', 'compare', 'compareAttribute'=>'password_hash', 'message'=>"Passwords don't match"),
-			array('password_repeat', 'safe'),
+			array('owner_id, installation_id', 'required'),
+			array('owner_id', 'numerical', 'integerOnly'=>true),
+			array('installation_id', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, active', 'safe', 'on'=>'search'),
+			array('owner_id, installation_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -52,7 +45,7 @@ class ResponsibleUsersList extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'thunderbirdClients' => array(self::HAS_MANY, 'ThunderbirdClients', 'owner_id'),
+			'owner' => array(self::BELONGS_TO, 'ResponsibleUsersList', 'owner_id'),
 		);
 	}
 
@@ -62,10 +55,8 @@ class ResponsibleUsersList extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'name' => 'Name',
-			'password_hash' => 'Password Hash',
-			'active' => 'Active',
+			'owner_id' => 'Owner',
+			'installation_id' => 'Installation',
 		);
 	}
 
@@ -87,10 +78,8 @@ class ResponsibleUsersList extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id',$this->id);
-		$criteria->compare('name',$this->name,true);
-		$criteria->compare('password_hash',$this->password_hash,true);
-		$criteria->compare('active',$this->active);
+		$criteria->compare('owner_id',$this->owner_id);
+		$criteria->compare('installation_id',$this->installation_id,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -101,13 +90,10 @@ class ResponsibleUsersList extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return ResponsibleUsersList the static model class
+	 * @return ThunderbirdClients the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
 	}
-	
-
-	
 }

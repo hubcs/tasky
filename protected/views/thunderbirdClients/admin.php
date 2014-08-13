@@ -1,15 +1,15 @@
 <?php
-/* @var $this TasksController */
-/* @var $model Tasks */
+/* @var $this ThunderbirdClientsController */
+/* @var $model ThunderbirdClients */
 
 $this->breadcrumbs=array(
-	'Tasks'=>array('index'),
+	'Thunderbird Clients'=>array('index'),
 	'Manage',
 );
 
 $this->menu=array(
-	array('label'=>'List Tasks', 'url'=>array('index')),
-	array('label'=>'Create Tasks', 'url'=>array('create')),
+	array('label'=>'List ThunderbirdClients', 'url'=>array('index')),
+	array('label'=>'Create ThunderbirdClients', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -18,7 +18,7 @@ $('.search-button').click(function(){
 	return false;
 });
 $('.search-form form').submit(function(){
-	$('#tasks-grid').yiiGridView('update', {
+	$('#thunderbird-clients-grid').yiiGridView('update', {
 		data: $(this).serialize()
 	});
 	return false;
@@ -26,7 +26,7 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Tasks</h1>
+<h1>Manage Thunderbird Clients</h1>
 
 <p>
 You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
@@ -41,16 +41,13 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 </div><!-- search-form -->
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
-	'id'=>'tasks-grid',
+	'id'=>'thunderbird-clients-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'message_id',
-		'name',
-		'note',
-		'status',
-		'delegated_by',
-		'timestamp',
+		'id',
+		'owner_id',
+		'installation_id',
 		array(
 			'class'=>'CButtonColumn',
 		),

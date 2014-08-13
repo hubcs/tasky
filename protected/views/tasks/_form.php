@@ -43,6 +43,18 @@
 		<?php echo $form->error($model,'status'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'delegated_by'); ?>
+		<?php echo $form->textArea($model,'delegated_by',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->error($model,'delegated_by'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'timestamp'); ?>
+		<?php echo $form->textField($model,'timestamp'); ?>
+		<?php echo $form->error($model,'timestamp'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

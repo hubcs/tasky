@@ -25,5 +25,8 @@ return [
 
 	'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 	'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-	'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+	'<controller:\w+>/<action:(create|view|update|delete|admin|index)>'=>'<controller>/<action>', //limited for this action(create|view|update|delete|admin|index)
+	'<controller:(tasks)>/<action:\w+>/<id:\w+>'=>'tasks/<action>',
+	'<controller:(tasks)>/<id:\w+>'=>'tasks/view', //rules: do not insert primary key (create|view|update|delete|admin|index)
+
 ];

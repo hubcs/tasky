@@ -5,12 +5,8 @@
 
 <div class="view">
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id)); ?>
-	<br />
-
 	<b><?php echo CHtml::encode($data->getAttributeLabel('message_id')); ?>:</b>
-	<?php echo CHtml::encode($data->message_id); ?>
+	<?php echo CHtml::link(CHtml::encode($data->message_id), array('view', 'id'=>$data->message_id)); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('name')); ?>:</b>
@@ -23,6 +19,14 @@
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('status')); ?>:</b>
 	<?php echo CHtml::encode($data->status); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('delegated_by')); ?>:</b>
+	<?php echo CHtml::encode($data->delegated_by); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('timestamp')); ?>:</b>
+	<?php echo CHtml::encode($data->timestamp); ?>
 	<br />
 
 

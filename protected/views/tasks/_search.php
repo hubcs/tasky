@@ -12,11 +12,6 @@
 )); ?>
 
 	<div class="row">
-		<?php echo $form->label($model,'id'); ?>
-		<?php echo $form->textField($model,'id'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->label($model,'message_id'); ?>
 		<?php echo $form->textField($model,'message_id',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
@@ -34,6 +29,16 @@
 	<div class="row">
 		<?php echo $form->label($model,'status'); ?>
 		<?php echo $form->textField($model,'status'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'delegated_by'); ?>
+		<?php echo $form->textArea($model,'delegated_by',array('rows'=>6, 'cols'=>50)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'timestamp'); ?>
+		<?php echo $form->textField($model,'timestamp'); ?>
 	</div>
 
 	<div class="row buttons">
