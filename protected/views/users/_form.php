@@ -1,13 +1,13 @@
 <?php
-/* @var $this ThunderbirdClientsController */
-/* @var $model ThunderbirdClients */
+/* @var $this UsersController */
+/* @var $model Users */
 /* @var $form CActiveForm */
 ?>
 
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'thunderbird-clients-form',
+	'id'=>'users-form',
 	// Please note: When you enable ajax validation, make sure the corresponding
 	// controller action is handling ajax validation correctly.
 	// There is a call to performAjaxValidation() commented in generated controller code.
@@ -20,15 +20,27 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'user_id'); ?>
-		<?php echo $form->textField($model,'user_id'); ?>
-		<?php echo $form->error($model,'user_id'); ?>
+		<?php echo $form->labelEx($model,'name'); ?>
+		<?php echo $form->textArea($model,'name',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->error($model,'name'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'installation_id'); ?>
-		<?php echo $form->textField($model,'installation_id',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'installation_id'); ?>
+		<?php echo $form->labelEx($model,'password_hash'); ?>
+		<?php echo $form->textField($model,'password_hash',array('size'=>60,'maxlength'=>64)); ?>
+		<?php echo $form->error($model,'password_hash'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'active'); ?>
+		<?php echo $form->textField($model,'active'); ?>
+		<?php echo $form->error($model,'active'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'date_updated'); ?>
+		<?php echo $form->textField($model,'date_updated'); ?>
+		<?php echo $form->error($model,'date_updated'); ?>
 	</div>
 
 	<div class="row">

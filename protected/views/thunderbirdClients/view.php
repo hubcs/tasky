@@ -22,7 +22,8 @@ $this->menu=array(
 	'data'=>$model,
 	'attributes'=>array(
 		'id',
-		'owner_id',
+		'user_id',
 		'installation_id',
+		'date_created',
 	),
 )); ?>

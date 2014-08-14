@@ -1,25 +1,23 @@
 <?php
 
 /**
- * This is the model class for table "thunderbird_clients".
+ * This is the model class for table "task_timeline_log".
  *
- * The followings are the available columns in table 'thunderbird_clients':
+ * The followings are the available columns in table 'task_timeline_log':
  * @property integer $id
+ * @property integer $task_id
+ * @property integer $task_status
  * @property integer $user_id
- * @property string $installation_id
- * @property string $date_created
- *
- * The followings are the available model relations:
- * @property Users $user
+ * @property string $timestamp
  */
-class ThunderbirdClients extends CActiveRecord
+class TaskTimelineLog extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'thunderbird_clients';
+		return 'task_timeline_log';
 	}
 
 	/**
@@ -30,12 +28,11 @@ class ThunderbirdClients extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('user_id, installation_id, date_created', 'required'),
-			array('user_id', 'numerical', 'integerOnly'=>true),
-			array('installation_id', 'length', 'max'=>255),
+			array('task_id, task_status, user_id, timestamp', 'required'),
+			array('task_id, task_status, user_id', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, user_id, installation_id, date_created', 'safe', 'on'=>'search'),
+			array('id, task_id, task_status, user_id, timestamp', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -47,7 +44,6 @@ class ThunderbirdClients extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'user' => array(self::BELONGS_TO, 'Users', 'user_id'),
 		);
 	}
 
@@ -58,9 +54,10 @@ class ThunderbirdClients extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
+			'task_id' => 'Task',
+			'task_status' => 'Task Status',
 			'user_id' => 'User',
-			'installation_id' => 'Installation',
-			'date_created' => 'Date Created',
+			'timestamp' => 'Timestamp',
 		);
 	}
 
@@ -83,9 +80,10 @@ class ThunderbirdClients extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
+		$criteria->compare('task_id',$this->task_id);
+		$criteria->compare('task_status',$this->task_status);
 		$criteria->compare('user_id',$this->user_id);
-		$criteria->compare('installation_id',$this->installation_id,true);
-		$criteria->compare('date_created',$this->date_created,true);
+		$criteria->compare('timestamp',$this->timestamp,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -96,7 +94,7 @@ class ThunderbirdClients extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return ThunderbirdClients the static model class
+	 * @return TaskTimelineLog the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

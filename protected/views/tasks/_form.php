@@ -26,9 +26,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'name'); ?>
-		<?php echo $form->textArea($model,'name',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'name'); ?>
+		<?php echo $form->labelEx($model,'responsible_user_id'); ?>
+		<?php echo $form->textField($model,'responsible_user_id'); ?>
+		<?php echo $form->error($model,'responsible_user_id'); ?>
 	</div>
 
 	<div class="row">
@@ -44,15 +44,21 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'delegated_by'); ?>
-		<?php echo $form->textArea($model,'delegated_by',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'delegated_by'); ?>
+		<?php echo $form->labelEx($model,'assigned_by_user_id'); ?>
+		<?php echo $form->textField($model,'assigned_by_user_id'); ?>
+		<?php echo $form->error($model,'assigned_by_user_id'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'timestamp'); ?>
-		<?php echo $form->textField($model,'timestamp'); ?>
-		<?php echo $form->error($model,'timestamp'); ?>
+		<?php echo $form->labelEx($model,'date_updated'); ?>
+		<?php echo $form->textField($model,'date_updated'); ?>
+		<?php echo $form->error($model,'date_updated'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'date_created'); ?>
+		<?php echo $form->textField($model,'date_created'); ?>
+		<?php echo $form->error($model,'date_created'); ?>
 	</div>
 
 	<div class="row buttons">

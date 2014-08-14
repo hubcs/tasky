@@ -8,7 +8,8 @@ return [
 	['<controller>/REST.PUT', 'pattern'=>'api/<controller:\w+>/<id:\w*>', 'verb'=>'PUT'],
 	['<controller>/REST.PUT', 'pattern'=>'api/<controller:\w+>/<id:\w*>/<param1:\w*>', 'verb'=>'PUT'],
 	['<controller>/REST.PUT', 'pattern'=>'api/<controller:\w*>/<id:\w*>/<param1:\w*>/<param2:\w*>', 'verb'=>'PUT'],	
-
+	['<controller:(tasks)>/REST.PUT', 'pattern'=>'api/<controller:\w+>/<id:\w*>', 'verb'=>'PUT'],
+	
 	['<controller>/REST.DELETE', 'pattern'=>'api/<controller:\w+>/<id:\w*>', 'verb'=>'DELETE'],
 	['<controller>/REST.DELETE', 'pattern'=>'api/<controller:\w+>/<id:\w*>/<param1:\w*>', 'verb'=>'DELETE'],
 	['<controller>/REST.DELETE', 'pattern'=>'api/<controller:\w+>/<id:\w*>/<param1:\w*>/<param2:\w*>', 'verb'=>'DELETE'],
@@ -26,7 +27,7 @@ return [
 	'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 	'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 	'<controller:\w+>/<action:(create|view|update|delete|admin|index)>'=>'<controller>/<action>', //limited for this action(create|view|update|delete|admin|index)
-	'<controller:(tasks)>/<action:\w+>/<id:\w+>'=>'tasks/<action>',
-	'<controller:(tasks)>/<id:\w+>'=>'tasks/view', //rules: do not insert primary key (create|view|update|delete|admin|index)
+	//'<controller:(tasks)>/<action:\w+>/<id:\w+>'=>'tasks/<action>',
+	//'<controller:(tasks)>/<id:\w+>'=>'tasks/view', //rules: do not insert primary key (create|view|update|delete|admin|index)
 
 ];

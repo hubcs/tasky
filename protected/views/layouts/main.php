@@ -35,9 +35,10 @@
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('/site/index')),
 				array('label'=>'Tasks', 'url'=>array('/tasks/admin')),
-				array('label'=>'Users', 'url'=>array('/responsibleUsersList/admin')),
+				array('label'=>'Users', 'url'=>array('/users/admin')),
 				array('label'=>'Clients', 'url'=>array('/thunderbirdClients')),
 				array('label'=>'SyncList', 'url'=>array('/ThunderbirdSyncList')),
+				array('label'=>'Addon', 'url'=>array('/site/version')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),

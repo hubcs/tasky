@@ -3787,3 +3787,573 @@ Stack trace:
 REQUEST_URI=/taskybird/index.php/responsibleUsersList/update/1
 HTTP_REFERER=http://localhost/taskybird/index.php/responsibleUsersList/1
 ---
+2014/08/14 11:01:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('about')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/taskybird/index.php/about
+---
+2014/08/14 11:04:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/taskybird/index.php/index
+---
+2014/08/14 11:04:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Index".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/taskybird/index.php/Index
+---
+2014/08/14 11:24:37 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\components\ERestResourceHelper.php:147)
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array()
+#1 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit()
+#2 unknown(0): ERestBehavior->emitRest()
+#3 C:\xampp\htdocs\yii\framework\base\CComponent.php(261): call_user_func_array()
+#4 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TasksController->__call()
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TasksController->emitRest()
+#6 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(31): EActionRestPOST->handlePost()
+#7 unknown(0): EActionRestPOST->run()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#9 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): EActionRestPOST->runWithParamsInternal()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): EActionRestPOST->runWithParams()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): TasksController->runAction()
+#12 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter()
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): ERestFilter->filter()
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): TasksController->filterAccessControl()
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(265): TasksController->runActionWithFilters()
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TasksController->run()
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\taskybird\index.php(13): CWebApplication->run()
+REQUEST_URI=/taskybird/index.php/api/tasks
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\components\ERestResourceHelper.php (147)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (787)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\Eventor\Eventor.php (170)
+2014/08/14 11:35:36 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\components\ERestResourceHelper.php:147)
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array()
+#1 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit()
+#2 unknown(0): ERestBehavior->emitRest()
+#3 C:\xampp\htdocs\yii\framework\base\CComponent.php(261): call_user_func_array()
+#4 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TasksController->__call()
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TasksController->emitRest()
+#6 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(31): EActionRestPOST->handlePost()
+#7 unknown(0): EActionRestPOST->run()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#9 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): EActionRestPOST->runWithParamsInternal()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): EActionRestPOST->runWithParams()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): TasksController->runAction()
+#12 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter()
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): ERestFilter->filter()
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): TasksController->filterAccessControl()
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(265): TasksController->runActionWithFilters()
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TasksController->run()
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\taskybird\index.php(13): CWebApplication->run()
+REQUEST_URI=/taskybird/index.php/api/tasks
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\components\ERestResourceHelper.php (147)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (787)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\Eventor\Eventor.php (170)
+2014/08/14 13:31:38 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\components\ERestResourceHelper.php:147)
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array()
+#1 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit()
+#2 unknown(0): ERestBehavior->emitRest()
+#3 C:\xampp\htdocs\yii\framework\base\CComponent.php(261): call_user_func_array()
+#4 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TasksController->__call()
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TasksController->emitRest()
+#6 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(31): EActionRestPOST->handlePost()
+#7 unknown(0): EActionRestPOST->run()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#9 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): EActionRestPOST->runWithParamsInternal()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): EActionRestPOST->runWithParams()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): TasksController->runAction()
+#12 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter()
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): ERestFilter->filter()
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): TasksController->filterAccessControl()
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(265): TasksController->runActionWithFilters()
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TasksController->run()
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\taskybird\index.php(13): CWebApplication->run()
+REQUEST_URI=/taskybird/index.php/api/tasks
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\components\ERestResourceHelper.php (147)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (787)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\Eventor\Eventor.php (170)
+2014/08/14 13:32:28 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\components\ERestResourceHelper.php:147)
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array()
+#1 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit()
+#2 unknown(0): ERestBehavior->emitRest()
+#3 C:\xampp\htdocs\yii\framework\base\CComponent.php(261): call_user_func_array()
+#4 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TasksController->__call()
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TasksController->emitRest()
+#6 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(31): EActionRestPOST->handlePost()
+#7 unknown(0): EActionRestPOST->run()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#9 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): EActionRestPOST->runWithParamsInternal()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): EActionRestPOST->runWithParams()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): TasksController->runAction()
+#12 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter()
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): ERestFilter->filter()
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): TasksController->filterAccessControl()
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(265): TasksController->runActionWithFilters()
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TasksController->run()
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\taskybird\index.php(13): CWebApplication->run()
+REQUEST_URI=/taskybird/index.php/api/tasks
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\components\ERestResourceHelper.php (147)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (787)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\Eventor\Eventor.php (170)
+2014/08/14 14:36:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPUT.php:50
+Stack trace:
+#0 [internal function]: EActionRestPUT->run('new_messageid', NULL, NULL)
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPUT), Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPUT), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPUT))
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPUT), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.PUT')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.PUT')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/new_messageid
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/14 14:37:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPUT.php:50
+Stack trace:
+#0 [internal function]: EActionRestPUT->run('new_messageid', NULL, NULL)
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPUT), Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPUT), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPUT))
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPUT), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.PUT')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.PUT')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/new_messageid
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/14 14:37:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPUT.php:50
+Stack trace:
+#0 [internal function]: EActionRestPUT->run('new_messageid', NULL, NULL)
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPUT), Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPUT), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPUT))
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPUT), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.PUT')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.PUT')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/new_messageid
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/14 17:48:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPUT.php:50
+Stack trace:
+#0 [internal function]: EActionRestPUT->run('new_messageid', NULL, NULL)
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPUT), Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPUT), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPUT))
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPUT), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.PUT')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.PUT')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/new_messageid
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/14 17:49:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPUT.php:50
+Stack trace:
+#0 [internal function]: EActionRestPUT->run('new_messageid', NULL, NULL)
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPUT), Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPUT), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPUT))
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPUT), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.PUT')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.PUT')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/new_messageid
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/14 17:49:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPUT.php:50
+Stack trace:
+#0 [internal function]: EActionRestPUT->run('new_messageid', NULL, NULL)
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPUT), Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPUT), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPUT))
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPUT), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.PUT')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.PUT')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/new_messageid
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/14 17:52:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'RESOURCE '111' NOT FOUND' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\components\ERestResourceHelper.php:87
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\ERestBaseAction.php(64): ERestResourceHelper->prepareRestModel('111')
+#1 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestGET.php(52): ERestBaseAction->getModel('111')
+#2 [internal function]: EActionRestGET->run('111', NULL, NULL)
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestGET), Array)
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestGET), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestGET))
+#7 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/111
+---
+2014/08/14 17:52:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestGET.php:56
+Stack trace:
+#0 [internal function]: EActionRestGET->run('new_messageid', NULL, NULL)
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestGET), Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestGET), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestGET))
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/new_messageid
+---
+2014/08/14 17:52:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestGET.php:56
+Stack trace:
+#0 [internal function]: EActionRestGET->run('new_messageid', NULL, NULL)
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestGET), Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestGET), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestGET))
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/new_messageid
+---
+2014/08/14 17:52:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestGET.php:56
+Stack trace:
+#0 [internal function]: EActionRestGET->run('new_messageid', NULL, NULL)
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestGET), Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestGET), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestGET))
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/new_messageid
+---
+2014/08/14 17:52:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestGET.php:56
+Stack trace:
+#0 [internal function]: EActionRestGET->run('new_messageid', NULL, NULL)
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestGET), Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestGET), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestGET))
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/new_messageid
+---
+2014/08/14 17:52:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestGET.php:56
+Stack trace:
+#0 [internal function]: EActionRestGET->run('new_messageid', NULL, NULL)
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestGET), Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestGET), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestGET))
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/new_messageid
+---
+2014/08/14 17:53:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "new_messageid".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('new_messageid')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('new_messageid')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/new_messa...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/tasks/new_messageid
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/14 17:53:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "new_messageid".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('new_messageid')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('new_messageid')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/new_messa...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taskybird/index.php/tasks/new_messageid
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/14 19:17:06 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'yii_taskybird.users'. The SQL statement executed was: DROP TABLE `users`.
+2014/08/14 19:25:23 [error] [exception.CException] exception 'CException' with message 'Property "Tasks.name" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('name')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1654): CHtml::resolveValue(Object(Tasks), 'name')
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(786): CHtml::activeTextArea(Object(Tasks), 'name', Array)
+#4 C:\xampp\htdocs\taskybird\protected\views\tasks\_search.php(21): CActiveForm->textArea(Object(Tasks), 'name', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\taskybird\protected\views\tasks\admin.php(40): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\taskybird\protected\controllers\TasksController.php(166): CController->render('admin', Array)
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TasksController->actionAdmin()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/admin')
+#25 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/taskybird/index.php/tasks/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/thunderbirdClients
+---
+2014/08/14 19:42:21 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\taskybird\protected\controllers\TasksController.php (99)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/14 19:42:21 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\taskybird\protected\controllers\TasksController.php (99)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/14 19:45:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message '{"responsible_user_id":["Responsible User must be a number."]}' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php:852
+Stack trace:
+#0 [internal function]: ERestEventListenerRegistry->{closure}(Object(Tasks))
+#1 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit('model.save', Array)
+#3 [internal function]: ERestBehavior->emitRest('model.save', Array)
+#4 C:\xampp\htdocs\yii\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(66): CComponent->__call('emitRest', Array)
+#6 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(66): TasksController->emitRest('model.save', Array)
+#7 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(31): EActionRestPOST->handlePost()
+#8 [internal function]: EActionRestPOST->run(NULL, NULL, NULL)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPOST), Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPOST), Object(ReflectionMethod), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPOST))
+#13 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPOST), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.POST')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.POST')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/14 19:45:31 [error] [exception.CHttpException.400] exception 'CHttpException' with message '{"responsible_user_id":["Responsible User must be a number."]}' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php:852
+Stack trace:
+#0 [internal function]: ERestEventListenerRegistry->{closure}(Object(Tasks))
+#1 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit('model.save', Array)
+#3 [internal function]: ERestBehavior->emitRest('model.save', Array)
+#4 C:\xampp\htdocs\yii\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(66): CComponent->__call('emitRest', Array)
+#6 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(66): TasksController->emitRest('model.save', Array)
+#7 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestPOST.php(31): EActionRestPOST->handlePost()
+#8 [internal function]: EActionRestPOST->run(NULL, NULL, NULL)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPOST), Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPOST), Object(ReflectionMethod), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPOST))
+#13 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPOST), Array)
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.POST')
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.POST')
+#24 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/14 19:46:04 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (851)
+2014/08/14 19:46:04 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (851)
+2014/08/14 19:46:04 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (851)

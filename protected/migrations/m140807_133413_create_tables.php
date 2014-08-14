@@ -20,27 +20,32 @@ class m140807_133413_create_tables extends CDbMigration
 	{
 	
 		$this->createTable('tasks', array(
-		  'message_id' => 'string NOT NULL PRIMARY KEY',
-		  'name' => 'tinytext NOT NULL',
+		  'id' => 'pk',
+		  'message_id' => 'string DEFAULT NULL UNIQUE',
+		  'responsible_user_id' => 'int(11) NOT NULL',
 		  'note' => 'text',
 		  'status' => 'int(11) NOT NULL',
-		  'delegated_by' => 'tinytext NOT NULL',
-		  'timestamp' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+		  'assigned_by_user_id' => 'int(11) NOT NULL',
+		  'date_updated' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+		  'date_created' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
 		)); 
 	
 
-		$this->createTable('responsible_users_list', array(
+		$this->createTable('users', array(
 		  'id' => 'pk',
 		  'name' => 'tinytext NOT NULL',
-		  'password_hash' => 'varchar(64)',
+		  'password_hash' => 'CHAR(40)',
 		  'active' => 'tinyint(1) NOT NULL',
+		  'date_updated' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+		  'date_created' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
 		));
 		
 		
 		$this->createTable('thunderbird_clients', array(
 		  'id' => 'pk',
-		  'owner_id' => 'int(10) NOT NULL',
+		  'user_id' => 'int(10) NOT NULL',
 		  'installation_id' => 'string NOT NULL',
+		  'date_created' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
 		));
 		
 		
@@ -51,7 +56,16 @@ class m140807_133413_create_tables extends CDbMigration
 		  'timestamp' => 'timestamp NOT NULL',
 		));
 		
-		$this->addForeignKey('FK_owner_id', 'thunderbird_clients', 'owner_id', 'responsible_users_list', 'id');
+		
+		$this->createTable('task_timeline_log', array(
+		  'id' => 'pk',
+		  'task_id' => 'int(10) NOT NULL',
+		  'task_status' => 'int(11) NOT NULL',
+		  'user_id' => 'int(11) NOT NULL',
+		  'timestamp' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+		));
+		
+		$this->addForeignKey('FK_owner_id', 'thunderbird_clients', 'user_id', 'users', 'id');
 		$this->addForeignKey('FK_message_id', 'thunderbird_sync_list', 'message_id', 'tasks', 'message_id');
 	
 	}
@@ -63,9 +77,10 @@ class m140807_133413_create_tables extends CDbMigration
 		
 		
 		$this->dropTable('tasks');
-		$this->dropTable('responsible_users_list');
+		$this->dropTable('users');
 		$this->dropTable('thunderbird_clients');
 		$this->dropTable('thunderbird_sync_list');
+		$this->dropTable('task_timeline_log');
 		
 	}
 	

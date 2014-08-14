@@ -17,13 +17,18 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'owner_id'); ?>
-		<?php echo $form->textField($model,'owner_id'); ?>
+		<?php echo $form->label($model,'user_id'); ?>
+		<?php echo $form->textField($model,'user_id'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'installation_id'); ?>
 		<?php echo $form->textField($model,'installation_id',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'date_created'); ?>
+		<?php echo $form->textField($model,'date_created'); ?>
 	</div>
 
 	<div class="row buttons">

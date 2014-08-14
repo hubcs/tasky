@@ -4,12 +4,14 @@
  * This is the model class for table "tasks".
  *
  * The followings are the available columns in table 'tasks':
+ * @property integer $id
  * @property string $message_id
- * @property string $name
+ * @property integer $responsible_user_id
  * @property string $note
  * @property integer $status
- * @property string $delegated_by
- * @property string $timestamp
+ * @property integer $assigned_by_user_id
+ * @property string $date_updated
+ * @property string $date_created
  *
  * The followings are the available model relations:
  * @property ThunderbirdSyncList[] $thunderbirdSyncLists
@@ -32,19 +34,12 @@ class Tasks extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('message_id, name, status, delegated_by', 'required'),
-			array('status', 'numerical', 'integerOnly'=>true),
+			array('responsible_user_id, status, assigned_by_user_id', 'numerical', 'integerOnly'=>true),
 			array('message_id', 'length', 'max'=>255),
 			array('note', 'safe'),
-			array('timestamp', 'default',
-				  'value'=>new CDbExpression('NOW()'),
-				  'setOnEmpty'=>false,'on'=>'update'),
-		    array('timestamp', 'default',
-				  'value'=>new CDbExpression('NOW()'),
-				  'setOnEmpty'=>false,'on'=>'insert'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('message_id, name, note, status, delegated_by, timestamp', 'safe', 'on'=>'search'),
+			array('id, message_id, responsible_user_id, note, status, assigned_by_user_id, date_updated, date_created', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -66,12 +61,14 @@ class Tasks extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
+			'id' => 'ID',
 			'message_id' => 'Message',
-			'name' => 'Name',
+			'responsible_user_id' => 'Responsible User',
 			'note' => 'Note',
 			'status' => 'Status',
-			'delegated_by' => 'Delegated By',
-			'timestamp' => 'Timestamp',
+			'assigned_by_user_id' => 'Assigned By User',
+			'date_updated' => 'Date Updated',
+			'date_created' => 'Date Created',
 		);
 	}
 
@@ -93,12 +90,14 @@ class Tasks extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
+		$criteria->compare('id',$this->id);
 		$criteria->compare('message_id',$this->message_id,true);
-		$criteria->compare('name',$this->name,true);
+		$criteria->compare('responsible_user_id',$this->responsible_user_id);
 		$criteria->compare('note',$this->note,true);
 		$criteria->compare('status',$this->status);
-		$criteria->compare('delegated_by',$this->delegated_by,true);
-		$criteria->compare('timestamp',$this->timestamp,true);
+		$criteria->compare('assigned_by_user_id',$this->assigned_by_user_id);
+		$criteria->compare('date_updated',$this->date_updated,true);
+		$criteria->compare('date_created',$this->date_created,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

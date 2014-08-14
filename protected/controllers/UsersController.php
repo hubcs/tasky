@@ -1,6 +1,6 @@
 <?php
 
-class TasksController extends Controller
+class UsersController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -13,40 +13,12 @@ class TasksController extends Controller
 	 */
 	public function filters()
 	{
-        return array(
-            'accessControl', // perform access control for CRUD operations
-            array(
-                'ext.RestfullYii.filters.ERestFilter + 
-                REST.GET, REST.PUT, REST.POST, REST.DELETE'
-            ),
-        );
+		return array(
+			'accessControl', // perform access control for CRUD operations
+			'postOnly + delete', // we only allow deletion via POST request
+		);
 	}
-	
-	public function actions()
-	{
-        return array(
-            'REST.'=>'ext.RestfullYii.actions.ERestActionProvider',
-        );
-	}
-	
-	public function restEvents()
-    {
-	
-        $this->onRest('req.cors.access.control.allow.origin', function() {
-            return ['http://taskybird.dopice.sk']; //List of sites allowed to make CORS requests 
-        });
-		
-		
-		$this->onRest('req.cors.access.control.allow.methods', function() {
-			return ['GET', 'POST', 'PUT', 'DELETE']; //List of allowed http methods (verbs) 
-        });
-		
-		$this->onRest('req.auth.ajax.user', function() { // THIS ALLOWS EVERYONE TO DO EVERYTHING
-			return true;
-		});
-		
-    }
-	
+
 	/**
 	 * Specifies the access control rules.
 	 * This method is used by the 'accessControl' filter.
@@ -56,7 +28,7 @@ class TasksController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view','REST.GET', 'REST.PUT', 'REST.POST', 'REST.DELETE'),
+				'actions'=>array('index','view'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -72,6 +44,7 @@ class TasksController extends Controller
 			),
 		);
 	}
+
 	/**
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
@@ -89,14 +62,14 @@ class TasksController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Tasks;
+		$model=new Users;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Tasks']))
+		if(isset($_POST['Users']))
 		{
-			$model->attributes=$_POST['Tasks'];
+			$model->attributes=$_POST['Users'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -118,9 +91,9 @@ class TasksController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Tasks']))
+		if(isset($_POST['Users']))
 		{
-			$model->attributes=$_POST['Tasks'];
+			$model->attributes=$_POST['Users'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -149,7 +122,7 @@ class TasksController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Tasks');
+		$dataProvider=new CActiveDataProvider('Users');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -160,10 +133,10 @@ class TasksController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Tasks('search');
+		$model=new Users('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Tasks']))
-			$model->attributes=$_GET['Tasks'];
+		if(isset($_GET['Users']))
+			$model->attributes=$_GET['Users'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -174,12 +147,12 @@ class TasksController extends Controller
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer $id the ID of the model to be loaded
-	 * @return Tasks the loaded model
+	 * @return Users the loaded model
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)
 	{
-		$model=Tasks::model()->findByPk($id);
+		$model=Users::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -187,11 +160,11 @@ class TasksController extends Controller
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param Tasks $model the model to be validated
+	 * @param Users $model the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='tasks-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='users-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

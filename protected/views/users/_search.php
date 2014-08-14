@@ -1,6 +1,6 @@
 <?php
-/* @var $this TasksController */
-/* @var $model Tasks */
+/* @var $this UsersController */
+/* @var $model Users */
 /* @var $form CActiveForm */
 ?>
 
@@ -17,28 +17,13 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'message_id'); ?>
-		<?php echo $form->textField($model,'message_id',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->label($model,'name'); ?>
+		<?php echo $form->textArea($model,'name',array('rows'=>6, 'cols'=>50)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'responsible_user_id'); ?>
-		<?php echo $form->textField($model,'responsible_user_id'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'note'); ?>
-		<?php echo $form->textArea($model,'note',array('rows'=>6, 'cols'=>50)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'status'); ?>
-		<?php echo $form->textField($model,'status'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'assigned_by_user_id'); ?>
-		<?php echo $form->textField($model,'assigned_by_user_id'); ?>
+		<?php echo $form->label($model,'active'); ?>
+		<?php echo $form->textField($model,'active'); ?>
 	</div>
 
 	<div class="row">
