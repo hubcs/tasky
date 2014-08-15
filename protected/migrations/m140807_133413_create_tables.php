@@ -24,7 +24,7 @@ class m140807_133413_create_tables extends CDbMigration
 		  'message_id' => 'string DEFAULT NULL UNIQUE',
 		  'responsible_user_id' => 'int(11) NOT NULL',
 		  'note' => 'text',
-		  'status' => 'int(11) NOT NULL',
+		  'status' => 'int(2) NOT NULL',
 		  'assigned_by_user_id' => 'int(11) NOT NULL',
 		  'date_updated' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
 		  'date_created' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
@@ -33,9 +33,11 @@ class m140807_133413_create_tables extends CDbMigration
 
 		$this->createTable('users', array(
 		  'id' => 'pk',
-		  'name' => 'tinytext NOT NULL',
-		  'password_hash' => 'CHAR(40)',
-		  'active' => 'tinyint(1) NOT NULL',
+		  'username' => 'VARCHAR(45) NOT NULL',
+          'email' => 'VARCHAR(60) DEFAULT NULL UNIQUE',
+		  'password' => 'CHAR(64) NOT NULL',
+		  'disabled' => 'tinyint(1) DEFAULT NULL',
+          'date_entered' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
 		  'date_updated' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
 		  'date_created' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
 		));

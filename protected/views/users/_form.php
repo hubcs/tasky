@@ -20,21 +20,39 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'name'); ?>
-		<?php echo $form->textArea($model,'name',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'name'); ?>
+		<?php echo $form->labelEx($model,'username'); ?>
+		<?php echo $form->textField($model,'username',array('size'=>45,'maxlength'=>45)); ?>
+		<?php echo $form->error($model,'username'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'password_hash'); ?>
-		<?php echo $form->textField($model,'password_hash',array('size'=>60,'maxlength'=>64)); ?>
-		<?php echo $form->error($model,'password_hash'); ?>
+		<?php echo $form->labelEx($model,'email'); ?>
+		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>60)); ?>
+		<?php echo $form->error($model,'email'); ?>
 	</div>
+
+	<div class="row">
+        <?php echo $form->labelEx($model,'password'); ?>
+        <?php echo $form->passwordField($model,'password',array('size'=>60,'maxlength'=>64)); ?>
+        <?php echo $form->error($model,'password'); ?>
+    </div>
+
+    <div class="row">
+        <?php echo $form->labelEx($model,'password_repeat'); ?>
+        <?php echo $form->passwordField($model,'password_repeat',array('size'=>60,'maxlength'=>64)); ?>
+        <?php echo $form->error($model,'password_repeat'); ?>
+    </div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'active'); ?>
 		<?php echo $form->textField($model,'active'); ?>
 		<?php echo $form->error($model,'active'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'date_entered'); ?>
+		<?php echo $form->textField($model,'date_entered'); ?>
+		<?php echo $form->error($model,'date_entered'); ?>
 	</div>
 
 	<div class="row">

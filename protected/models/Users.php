@@ -5,9 +5,11 @@
  *
  * The followings are the available columns in table 'users':
  * @property integer $id
- * @property string $name
- * @property string $password_hash
+ * @property string $username
+ * @property string $email
+ * @property string $password
  * @property integer $active
+ * @property string $date_entered
  * @property string $date_updated
  * @property string $date_created
  *
@@ -16,6 +18,8 @@
  */
 class Users extends CActiveRecord
 {
+
+    public $password_repeat;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -32,14 +36,14 @@ class Users extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, active, date_updated, date_created, password_hash, password_repeat', 'required'),
+			array('username, active, password, password_repeat', 'required'),
 			array('active', 'numerical', 'integerOnly'=>true),
-			array('password_hash', 'length', 'min'=>6, 'max'=>64, 'on'=>'register, recover'),
-			array('password_repeat', 'compare', 'compareAttribute'=>'password_hash', 'message'=>"Passwords don't match"),
+			array('password', 'length', 'min'=>6, 'max'=>64, 'on'=>'register, recover'),
+			array('password_repeat', 'compare', 'compareAttribute'=>'password', 'message'=>"Passwords don't match"),
 			array('password_repeat', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, password_hash, active, date_updated, date_created', 'safe', 'on'=>'search'),
+			array('id, username, email, active, date_updated, date_created, date_entered', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -62,11 +66,13 @@ class Users extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'name' => 'Name',
-			'password_hash' => 'Password Hash',
+            'email' => 'email',
+			'username' => 'Username',
+			'password' => 'Password',
 			'active' => 'Active',
 			'date_updated' => 'Date Updated',
 			'date_created' => 'Date Created',
+            'date_entered' => 'Date Entered',
 		);
 	}
 
@@ -89,11 +95,13 @@ class Users extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('name',$this->name,true);
-		$criteria->compare('password_hash',$this->password_hash,true);
+		$criteria->compare('username',$this->username,true);
+        $criteria->compare('email',$this->email,true);
+		$criteria->compare('password',$this->password,true);
 		$criteria->compare('active',$this->active);
 		$criteria->compare('date_updated',$this->date_updated,true);
 		$criteria->compare('date_created',$this->date_created,true);
+        $criteria->compare('date_entered',$this->date_entered,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -110,4 +118,28 @@ class Users extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+
+    protected function afterValidate() {
+        parent::afterValidate();
+        if(!$this->hasErrors())
+            $this->password = $this->hashPassword($this->password);
+    }
+
+    /*
+     * Generates the password hash.
+     * @param string password
+     * @return string hash
+     */
+    public function hashPassword($password) {
+        return md5($password);
+    }
+
+    /*
+     * Checks if the given password is correct.
+     * @param string the password is valid
+     */
+    public function validatePassword($password) {
+        return $this->hashPassword($password) === $this->password;
+    }
 }

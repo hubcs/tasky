@@ -4357,3 +4357,824 @@ in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventL
 in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
 in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
 in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (851)
+2014/08/15 11:45:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\actions\EActionRestGET.php:56
+Stack trace:
+#0 [internal function]: EActionRestGET->run('new_messageid', NULL, NULL)
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestGET), Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestGET), Object(ReflectionMethod), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestGET))
+#5 C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.GET')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/taskybird/index.php/api/tasks/new_messageid
+---
+2014/08/15 13:20:58 [error] [exception.CException] exception 'CException' with message 'Property "Users.password_repeat" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('password_repeat')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('password_repeat')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Users), 'password_repeat')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Users), 'password_repeat', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Users), 'password_repeat', Array)
+#5 C:\xampp\htdocs\taskybird\protected\views\users\_form.php(36): CActiveForm->textField(Object(Users), 'password_repeat', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\taskybird\protected\views\users\create.php(18): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#14 C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php(79): CController->render('create', Array)
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/create')
+#26 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/taskybird/index.php/users/create
+HTTP_REFERER=http://localhost/taskybird/index.php/users/admin
+---
+2014/08/15 14:34:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/tasks/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/site/login
+---
+2014/08/15 14:34:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/tasks/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/15 14:34:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/users/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/15 14:34:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/users/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/thunderbirdClients
+---
+2014/08/15 14:34:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/tasks/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/users/admin
+---
+2014/08/15 14:34:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/tasks/admin
+HTTP_REFERER=http://localhost/taskybird/index.php
+---
+2014/08/15 14:34:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/users/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/15 14:34:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/users/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/users/admin
+---
+2014/08/15 14:55:25 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.name" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('name')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), 'name')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), 'name', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), 'name', Array)
+#4 C:\xampp\htdocs\taskybird\protected\views\site\login.php(29): CActiveForm->textField(Object(LoginForm), 'name')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 C:\xampp\htdocs\taskybird\protected\controllers\SiteController.php(105): CController->render('login', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/taskybird/index.php/site/login
+HTTP_REFERER=http://localhost/taskybird/index.php
+---
+2014/08/15 14:55:42 [error] [exception.CException] exception 'CException' with message 'Users and its behaviors do not have a method or closure named "findByAttribute".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('findByAttribute', Array)
+#1 C:\xampp\htdocs\taskybird\protected\components\UserIdentity.php(21): CActiveRecord->__call('findByAttribute', Array)
+#2 C:\xampp\htdocs\taskybird\protected\components\UserIdentity.php(21): Users->findByAttribute(Array)
+#3 C:\xampp\htdocs\taskybird\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\taskybird\protected\controllers\SiteController.php(101): CModel->validate()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/taskybird/index.php/site/login
+HTTP_REFERER=http://localhost/taskybird/index.php/site/login
+---
+2014/08/15 14:56:39 [error] [exception.CException] exception 'CException' with message 'Users and its behaviors do not have a method or closure named "findByAttribute".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('findByAttribute', Array)
+#1 C:\xampp\htdocs\taskybird\protected\components\UserIdentity.php(21): CActiveRecord->__call('findByAttribute', Array)
+#2 C:\xampp\htdocs\taskybird\protected\components\UserIdentity.php(21): Users->findByAttribute(Array)
+#3 C:\xampp\htdocs\taskybird\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\taskybird\protected\controllers\SiteController.php(101): CModel->validate()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/taskybird/index.php/site/login
+HTTP_REFERER=http://localhost/taskybird/index.php/site/login
+---
+2014/08/15 14:56:56 [error] [exception.CDbException] exception 'CDbException' with message 'Table "users" does not have a column named "user".' in C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php:694
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1518): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 C:\xampp\htdocs\taskybird\protected\components\UserIdentity.php(21): CActiveRecord->findByAttributes(Array)
+#2 C:\xampp\htdocs\taskybird\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\taskybird\protected\controllers\SiteController.php(101): CModel->validate()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/taskybird/index.php/site/login
+HTTP_REFERER=http://localhost/taskybird/index.php/site/login
+---
+2014/08/15 14:59:34 [error] [exception.CException] exception 'CException' with message 'Property "Users.password" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('password')
+#1 C:\xampp\htdocs\taskybird\protected\components\UserIdentity.php(25): CActiveRecord->__get('password')
+#2 C:\xampp\htdocs\taskybird\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\taskybird\protected\controllers\SiteController.php(101): CModel->validate()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/taskybird/index.php/site/login
+HTTP_REFERER=http://localhost/taskybird/index.php/site/login
+---
+2014/08/15 15:00:29 [error] [exception.CException] exception 'CException' with message 'Property "Users.password" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('password')
+#1 C:\xampp\htdocs\taskybird\protected\components\UserIdentity.php(25): CActiveRecord->__get('password')
+#2 C:\xampp\htdocs\taskybird\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\taskybird\protected\controllers\SiteController.php(101): CModel->validate()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/taskybird/index.php/site/login
+HTTP_REFERER=http://localhost/taskybird/index.php/site/login
+---
+2014/08/15 15:23:39 [error] [exception.CDbException] exception 'CDbException' with message 'Table "users" does not have a column named "name".' in C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php:694
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1518): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 C:\xampp\htdocs\taskybird\protected\components\UserIdentity.php(21): CActiveRecord->findByAttributes(Array)
+#2 C:\xampp\htdocs\taskybird\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\taskybird\protected\controllers\SiteController.php(101): CModel->validate()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/taskybird/index.php/site/login
+HTTP_REFERER=http://localhost/taskybird/index.php/site/login
+---
+2014/08/15 15:35:45 [error] [exception.CException] exception 'CException' with message 'Property "Users.name" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('name')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1654): CHtml::resolveValue(Object(Users), 'name')
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(786): CHtml::activeTextArea(Object(Users), 'name', Array)
+#4 C:\xampp\htdocs\taskybird\protected\views\users\_search.php(21): CActiveForm->textArea(Object(Users), 'name', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\taskybird\protected\views\users\admin.php(40): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php(143): CController->render('admin', Array)
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionAdmin()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#25 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/taskybird/index.php/users/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/15 15:45:43 [error] [exception.CException] exception 'CException' with message 'Property "Users.name" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('name')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1654): CHtml::resolveValue(Object(Users), 'name')
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(786): CHtml::activeTextArea(Object(Users), 'name', Array)
+#4 C:\xampp\htdocs\taskybird\protected\views\users\_search.php(21): CActiveForm->textArea(Object(Users), 'name', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\taskybird\protected\views\users\admin.php(40): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php(143): CController->render('admin', Array)
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionAdmin()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#25 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/taskybird/index.php/users/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/15 16:10:03 [error] [exception.CException] exception 'CException' with message 'Property "Users.name" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('name')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1654): CHtml::resolveValue(Object(Users), 'name')
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(786): CHtml::activeTextArea(Object(Users), 'name', Array)
+#4 C:\xampp\htdocs\taskybird\protected\views\users\_search.php(21): CActiveForm->textArea(Object(Users), 'name', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\taskybird\protected\views\users\admin.php(40): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php(143): CController->render('admin', Array)
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionAdmin()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#25 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/taskybird/index.php/users/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/thunderbirdClients
+---
+2014/08/15 16:10:51 [error] [exception.CException] exception 'CException' with message 'Property "Users.name" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('name')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1654): CHtml::resolveValue(Object(Users), 'name')
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(786): CHtml::activeTextArea(Object(Users), 'name', Array)
+#4 C:\xampp\htdocs\taskybird\protected\views\users\_search.php(21): CActiveForm->textArea(Object(Users), 'name', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\taskybird\protected\views\users\admin.php(40): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php(143): CController->render('admin', Array)
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionAdmin()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#25 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/taskybird/index.php/users/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/site/login
+---
+2014/08/15 16:15:26 [error] [exception.CException] exception 'CException' with message 'Property "Users.name" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('name')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1654): CHtml::resolveValue(Object(Users), 'name')
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(786): CHtml::activeTextArea(Object(Users), 'name', Array)
+#4 C:\xampp\htdocs\taskybird\protected\views\users\_search.php(21): CActiveForm->textArea(Object(Users), 'name', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\taskybird\protected\views\users\admin.php(40): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php(143): CController->render('admin', Array)
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionAdmin()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#25 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/taskybird/index.php/users/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/site/login
+---
+2014/08/15 16:15:28 [error] [exception.CException] exception 'CException' with message 'Property "Users.name" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('name')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1654): CHtml::resolveValue(Object(Users), 'name')
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(786): CHtml::activeTextArea(Object(Users), 'name', Array)
+#4 C:\xampp\htdocs\taskybird\protected\views\users\_search.php(21): CActiveForm->textArea(Object(Users), 'name', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\taskybird\protected\views\users\admin.php(40): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php(143): CController->render('admin', Array)
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionAdmin()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#25 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/taskybird/index.php/users/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/site/login
+---
+2014/08/15 16:16:13 [error] [exception.CException] exception 'CException' with message 'Property "Users.password_hash" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('password_hash')
+#1 C:\xampp\htdocs\taskybird\protected\models\Users.php(100): CActiveRecord->__get('password_hash')
+#2 C:\xampp\htdocs\taskybird\protected\views\users\admin.php(45): Users->search()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#7 C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php(143): CController->render('admin', Array)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionAdmin()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#19 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/taskybird/index.php/users/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/site/login
+---
+2014/08/15 16:16:14 [error] [exception.CException] exception 'CException' with message 'Property "Users.password_hash" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('password_hash')
+#1 C:\xampp\htdocs\taskybird\protected\models\Users.php(100): CActiveRecord->__get('password_hash')
+#2 C:\xampp\htdocs\taskybird\protected\views\users\admin.php(45): Users->search()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#7 C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php(143): CController->render('admin', Array)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionAdmin()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#19 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/taskybird/index.php/users/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/site/login
+---
+2014/08/15 16:16:56 [warning] [application] Failed to set unsafe attribute "email" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:16:56 [warning] [application] Failed to set unsafe attribute "date_entered" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:16:56 [warning] [application] Failed to set unsafe attribute "date_updated" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:16:56 [warning] [application] Failed to set unsafe attribute "date_created" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:17:32 [warning] [application] Failed to set unsafe attribute "email" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:17:32 [warning] [application] Failed to set unsafe attribute "date_entered" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:17:32 [warning] [application] Failed to set unsafe attribute "date_updated" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:17:32 [warning] [application] Failed to set unsafe attribute "date_created" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:17:36 [warning] [application] Failed to set unsafe attribute "email" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:17:36 [warning] [application] Failed to set unsafe attribute "date_entered" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:17:36 [warning] [application] Failed to set unsafe attribute "date_updated" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:17:36 [warning] [application] Failed to set unsafe attribute "date_created" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:17:39 [warning] [application] Failed to set unsafe attribute "email" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:17:39 [warning] [application] Failed to set unsafe attribute "date_entered" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:17:39 [warning] [application] Failed to set unsafe attribute "date_updated" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:17:39 [warning] [application] Failed to set unsafe attribute "date_created" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:18:00 [warning] [application] Failed to set unsafe attribute "email" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (96)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:18:00 [warning] [application] Failed to set unsafe attribute "date_entered" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (96)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:18:00 [warning] [application] Failed to set unsafe attribute "date_updated" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (96)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:18:00 [warning] [application] Failed to set unsafe attribute "date_created" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (96)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:18:03 [warning] [application] Failed to set unsafe attribute "email" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (96)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:18:03 [warning] [application] Failed to set unsafe attribute "date_entered" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (96)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:18:03 [warning] [application] Failed to set unsafe attribute "date_updated" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (96)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:18:03 [warning] [application] Failed to set unsafe attribute "date_created" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (96)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 16:24:31 [error] [exception.CException] exception 'CException' with message 'Users and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\taskybird\protected\components\UserIdentity.php(23): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\taskybird\protected\components\UserIdentity.php(23): Users->validatePassword('222')
+#3 C:\xampp\htdocs\taskybird\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\taskybird\protected\controllers\SiteController.php(101): CModel->validate()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/taskybird/index.php/site/login
+HTTP_REFERER=http://localhost/taskybird/index.php/site/login
+---
+2014/08/15 16:53:24 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity._id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\taskybird\protected\components\UserIdentity.php(27): CComponent->__set('_id', '1')
+#1 C:\xampp\htdocs\taskybird\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\taskybird\protected\controllers\SiteController.php(101): CModel->validate()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/taskybird/index.php/site/login
+HTTP_REFERER=http://localhost/taskybird/index.php/site/login
+---
+2014/08/15 16:57:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/users/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/thunderbirdClients
+---
+2014/08/15 16:57:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/tasks/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/users/admin
+---
+2014/08/15 16:57:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/tasks/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/create
+---
+2014/08/15 16:57:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/taskybird/index.php/users/admin
+HTTP_REFERER=http://localhost/taskybird/index.php/tasks/admin
+---
+2014/08/15 17:23:19 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.getId" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('getId')
+#1 C:\xampp\htdocs\taskybird\protected\views\tasks\_form.php(22): CWebUser->__get('getId')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\taskybird\protected\views\tasks\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\taskybird\protected\controllers\TasksController.php(106): CController->render('create', Array)
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TasksController->actionCreate()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/create')
+#22 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\taskybird\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/taskybird/index.php/tasks/create
+HTTP_REFERER=http://localhost/taskybird/index.php/users/admin
+---
+2014/08/15 17:36:37 [warning] [application] Failed to set unsafe attribute "email" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 17:36:37 [warning] [application] Failed to set unsafe attribute "date_entered" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 17:36:37 [warning] [application] Failed to set unsafe attribute "date_updated" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)
+2014/08/15 17:36:37 [warning] [application] Failed to set unsafe attribute "date_created" of "Users".
+in C:\xampp\htdocs\taskybird\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\taskybird\index.php (13)

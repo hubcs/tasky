@@ -114,4 +114,15 @@ class Tasks extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+    public function beforeSave()
+    {
+        if ($this->responsible_user_id == '')
+            $this->responsible_user_id = Yii::app()->user->id;
+        if ($this->assigned_by_user_id == '')
+            $this->assigned_by_user_id = Yii::app()->user->id;
+        if ($this->status == '')
+            $this->status = 0;
+        return parent::beforeSave();
+    }
 }

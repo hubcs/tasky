@@ -33,7 +33,7 @@
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/site/index')),
+                array('label'=>'New Task', 'url'=>array('/tasks/create')),
 				array('label'=>'Tasks', 'url'=>array('/tasks/admin')),
 				array('label'=>'Users', 'url'=>array('/users/admin')),
 				array('label'=>'Clients', 'url'=>array('/thunderbirdClients')),
