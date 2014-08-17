@@ -25,7 +25,7 @@ $this->menu=array(
 		'username',
 		'email',
 		'password',
-		'active',
+		'disabled',
 		'date_entered',
 		'date_updated',
 		'date_created',

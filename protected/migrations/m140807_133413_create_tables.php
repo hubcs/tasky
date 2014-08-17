@@ -27,7 +27,7 @@ class m140807_133413_create_tables extends CDbMigration
 		  'status' => 'int(2) NOT NULL',
 		  'assigned_by_user_id' => 'int(11) NOT NULL',
 		  'date_updated' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
-		  'date_created' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+		  'date_created' => 'DATETIME',
 		)); 
 	
 
@@ -37,9 +37,9 @@ class m140807_133413_create_tables extends CDbMigration
           'email' => 'VARCHAR(60) DEFAULT NULL UNIQUE',
 		  'password' => 'CHAR(64) NOT NULL',
 		  'disabled' => 'tinyint(1) DEFAULT NULL',
-          'date_entered' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+          'date_entered' => 'DATETIME',
 		  'date_updated' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
-		  'date_created' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+		  'date_created' => 'DATETIME',
 		));
 		
 		
@@ -47,7 +47,7 @@ class m140807_133413_create_tables extends CDbMigration
 		  'id' => 'pk',
 		  'user_id' => 'int(10) NOT NULL',
 		  'installation_id' => 'string NOT NULL',
-		  'date_created' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+		  'date_created' => 'DATETIME',
 		));
 		
 		
@@ -55,7 +55,7 @@ class m140807_133413_create_tables extends CDbMigration
 		  'id' => 'pk',
 		  'installation_id' => 'int(10) NOT NULL',
 		  'message_id' => 'string NOT NULL',
-		  'timestamp' => 'timestamp NOT NULL',
+		  'timestamp' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
 		));
 		
 		

@@ -27,8 +27,8 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'active'); ?>
-		<?php echo $form->textField($model,'active'); ?>
+		<?php echo $form->label($model,'disabled'); ?>
+		<?php echo $form->textField($model,'disabled'); ?>
 	</div>
 
 	<div class="row">

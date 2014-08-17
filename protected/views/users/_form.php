@@ -44,9 +44,9 @@
     </div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'active'); ?>
-		<?php echo $form->textField($model,'active'); ?>
-		<?php echo $form->error($model,'active'); ?>
+		<?php echo $form->labelEx($model,'disabled'); ?>
+		<?php echo $form->textField($model,'disabled'); ?>
+		<?php echo $form->error($model,'disabled'); ?>
 	</div>
 
 	<div class="row">

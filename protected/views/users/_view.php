@@ -21,8 +21,8 @@
 	<?php echo CHtml::encode($data->password); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('active')); ?>:</b>
-	<?php echo CHtml::encode($data->active); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('disabled')); ?>:</b>
+	<?php echo CHtml::encode($data->disabled); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('date_entered')); ?>:</b>

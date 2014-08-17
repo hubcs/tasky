@@ -8,7 +8,7 @@
  * @property string $username
  * @property string $email
  * @property string $password
- * @property integer $active
+ * @property integer $disabled
  * @property string $date_entered
  * @property string $date_updated
  * @property string $date_created
@@ -36,14 +36,14 @@ class Users extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, active, password, password_repeat', 'required'),
-			array('active', 'numerical', 'integerOnly'=>true),
+			array('username, disabled, password, password_repeat', 'required'),
+			array('disabled', 'numerical', 'integerOnly'=>true),
 			array('password', 'length', 'min'=>6, 'max'=>64, 'on'=>'register, recover'),
 			array('password_repeat', 'compare', 'compareAttribute'=>'password', 'message'=>"Passwords don't match"),
 			array('password_repeat', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, username, email, active, date_updated, date_created, date_entered', 'safe', 'on'=>'search'),
+			array('id, username, email, disabled, date_updated, date_created, date_entered', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -69,7 +69,7 @@ class Users extends CActiveRecord
             'email' => 'email',
 			'username' => 'Username',
 			'password' => 'Password',
-			'active' => 'Active',
+			'disabled' => 'Disabled',
 			'date_updated' => 'Date Updated',
 			'date_created' => 'Date Created',
             'date_entered' => 'Date Entered',
@@ -98,7 +98,7 @@ class Users extends CActiveRecord
 		$criteria->compare('username',$this->username,true);
         $criteria->compare('email',$this->email,true);
 		$criteria->compare('password',$this->password,true);
-		$criteria->compare('active',$this->active);
+		$criteria->compare('disabled',$this->disabled);
 		$criteria->compare('date_updated',$this->date_updated,true);
 		$criteria->compare('date_created',$this->date_created,true);
         $criteria->compare('date_entered',$this->date_entered,true);
