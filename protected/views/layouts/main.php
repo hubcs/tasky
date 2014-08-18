@@ -15,7 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 
-    <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/angular.min"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/angular.min.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/todoCtrl.js"></script>
 
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>

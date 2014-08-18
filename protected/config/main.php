@@ -8,7 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Taskybird',
-    //'theme' => 'abound',
+    'theme' => 'taskybird_default',
 
 	// preloading 'log' component
 	'preload'=>array('log'),

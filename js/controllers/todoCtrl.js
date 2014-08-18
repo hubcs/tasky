@@ -11,33 +11,30 @@ todoApp.service('dataService', function($http) {
            //headers: {'Authorization': 'bearer f44ba59438f607a23517c423ccb38e9aa798dfeb'}
         });
     }
-    this.postData = function(description) {
-        // $http() returns a $promise that we can add handlers with .then()
+    this.postData = function(note) {
         return $http({
             method: 'POST',
             url: '/taskybird/index.php/api/tasks',
             //headers: {'Authorization': 'bearer f44ba59438f607a23517c423ccb38e9aa798dfeb'},
             data: {
-                description: description, done: false
+                note: note, status: 0
             }
         });
     }
-    this.putData = function(id, description, done) {
-        // $http() returns a $promise that we can add handlers with .then()
+    this.putData = function(id, note, status) {
         return $http({
             method: 'PUT',
             url: '/taskybird/index.php/api/tasks/'+id,
             //headers: {'Authorization': 'bearer f44ba59438f607a23517c423ccb38e9aa798dfeb'},
             data: {
-                id: id, description: description, done: done
+                id: id, note: note, status: status
             }
         });
     }
     this.deleteData = function(id) {
-        // $http() returns a $promise that we can add handlers with .then()
         return $http({
             method: 'DELETE',
-            url: '/taskybird/index.php/api/tasks'+id,
+            url: '/taskybird/index.php/api/tasks/'+id,
             //headers: {'Authorization': 'bearer f44ba59438f607a23517c423ccb38e9aa798dfeb'},
             data: {
                 id: id
@@ -47,32 +44,20 @@ todoApp.service('dataService', function($http) {
 });
 
 
-
-
 todoApp.controller('TodoCtrl', ['$scope', 'dataService', function($scope, dataService) {
-    /* $scope.todos = [{description: "have a good sleep tonight", done:false},
-     {description: "read \"Pro AngularJS\" book", done:false},
-     {description: "eat some burgers", done:false},
-     {description: "read \"Instant Django Application Development\" book", done:true},
-     {description: "finish this project", done:false},
-     {description: "watch lynda.com angularjs tutorials", done:true},
-     {description: "read \"Two spoons of django\" book", done:false},
-     {description: "start this project and commit to github", done:true}
-     ];
-     console.log($scope.todos);
-     */
+
     //get data from REST
     $scope.todos = null;
     dataService.getData().then(function (dataResponse) {
-        $scope.todos = dataResponse.data;
+        $scope.todos = dataResponse.data.data.tasks;
         console.log($scope.todos);
     });
 
 
 
     $scope.toggleTodo = function(todo) {
-        todo.done ? todo.done = false : todo.done = true;
-        dataService.putData(todo.id, todo.description, todo.done).then(function (dataResponse) {
+        todo.status == 4 ? todo.status = 0 : todo.status = 4;
+        dataService.putData(todo.id, todo.note, todo.status).then(function (dataResponse) {
         });
     };
 
@@ -86,8 +71,8 @@ todoApp.controller('TodoCtrl', ['$scope', 'dataService', function($scope, dataSe
 
         dataService.postData(newTodo).then(function (dataResponse) {
             $scope.todos.push({
-                description: newTodo,
-                done: false
+                note: newTodo,
+                status: 0
             });
         });
 
@@ -108,12 +93,12 @@ todoApp.controller('TodoCtrl', ['$scope', 'dataService', function($scope, dataSe
     };
 
     $scope.doneEditing = function (todo) {
-        dataService.putData(todo.id, todo.description, todo.done).then(function (dataResponse) {
+        dataService.putData(todo.id, todo.note, todo.status).then(function (dataResponse) {
             $scope.editedTodo = null;
-            todo.description = todo.description.trim();
+            todo.note = todo.note.trim();
         });
 
-        if (!todo.description) {
+        if (!todo.note) {
             $scope.deleteTodo(todo);
         }
     };
@@ -172,4 +157,4 @@ todoApp.controller('TodoCtrl', ['$scope', 'dataService', function($scope, dataSe
         $scope.doneEditing($scope.originalTag);
     };
 
-}]);;
+}]);

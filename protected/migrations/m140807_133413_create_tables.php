@@ -28,8 +28,24 @@ class m140807_133413_create_tables extends CDbMigration
 		  'assigned_by_user_id' => 'int(11) NOT NULL',
 		  'date_updated' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
 		  'date_created' => 'DATETIME',
-		)); 
-	
+		));
+
+        $this->createTable('tags', array(
+            'id' => 'pk',
+            'name' => 'VARCHAR(20) NOT NULL',
+            'user_id' => 'int(10) NOT NULL',
+            'date_updated' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+            'date_created' => 'DATETIME',
+        ));
+
+        $this->createTable('TaskTagAssoc', array(
+           'id' => 'pk',
+           'task_id' => 'INT(10) NOT NULL',
+           'tag_id' => 'INT(10) NOT NULL',
+           'user_id' => 'INT(10) NOT NULL',
+           'date_updated' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+           'date_created' => 'DATETIME',
+        ));
 
 		$this->createTable('users', array(
 		  'id' => 'pk',
@@ -41,6 +57,12 @@ class m140807_133413_create_tables extends CDbMigration
 		  'date_updated' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
 		  'date_created' => 'DATETIME',
 		));
+
+        //CREATE ADMIN ACCOUNT
+        $this->insert('users',array(
+            'username' =>'admin',
+            'password' => md5('admin'),
+        ));
 		
 		
 		$this->createTable('thunderbird_clients', array(
@@ -66,14 +88,19 @@ class m140807_133413_create_tables extends CDbMigration
 		  'user_id' => 'int(11) NOT NULL',
 		  'timestamp' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
 		));
-		
-		$this->addForeignKey('FK_owner_id', 'thunderbird_clients', 'user_id', 'users', 'id');
+
+
+        $this->addForeignKey('FK_tag', 'TaskTagAssoc', 'tag_id', 'tags', 'id');
+        $this->addForeignKey('FK_task', 'TaskTagAssoc', 'task_id', 'tasks', 'id');
+        $this->addForeignKey('FK_owner_id', 'thunderbird_clients', 'user_id', 'users', 'id');
 		$this->addForeignKey('FK_message_id', 'thunderbird_sync_list', 'message_id', 'tasks', 'message_id');
 	
 	}
 
 	public function safeDown()
 	{
+        $this->dropForeignKey('FK_tag', 'TaskTagAssoc');
+        $this->dropForeignKey('FK_task', 'TaskTagAssoc');
 		$this->dropForeignKey('FK_owner_id', 'thunderbird_clients');
 		$this->dropForeignKey('FK_message_id', 'thunderbird_sync_list');
 		
