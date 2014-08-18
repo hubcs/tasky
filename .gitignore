@@ -38,3 +38,6 @@ Icon
 
 #phpstorm
 .idea/
+
+#yii exclude
+protected/config/

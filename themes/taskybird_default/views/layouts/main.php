@@ -35,7 +35,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo Yii::app()->request->baseUrl; ?>"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/taskybird_logo3_64x.png" width="32" height="32" /></a>
+            <a class="navbar-brand" href="/"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/taskybird_logo3_64x.png" width="32" height="32" /></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

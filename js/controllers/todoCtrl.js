@@ -6,7 +6,7 @@ todoApp.service('dataService', function($http) {
         // $http() returns a $promise that we can add handlers with .then()
         return $http({
             method: 'GET',
-            url: '/taskybird/index.php/api/tasks'
+            url: '/index.php/api/tasks'
             //params: 'limit=10',
            //headers: {'Authorization': 'bearer f44ba59438f607a23517c423ccb38e9aa798dfeb'}
         });
@@ -14,7 +14,7 @@ todoApp.service('dataService', function($http) {
     this.postData = function(note) {
         return $http({
             method: 'POST',
-            url: '/taskybird/index.php/api/tasks',
+            url: '/index.php/api/tasks',
             //headers: {'Authorization': 'bearer f44ba59438f607a23517c423ccb38e9aa798dfeb'},
             data: {
                 note: note, status: 0
@@ -24,7 +24,7 @@ todoApp.service('dataService', function($http) {
     this.putData = function(id, note, status) {
         return $http({
             method: 'PUT',
-            url: '/taskybird/index.php/api/tasks/'+id,
+            url: '/index.php/api/tasks/'+id,
             //headers: {'Authorization': 'bearer f44ba59438f607a23517c423ccb38e9aa798dfeb'},
             data: {
                 id: id, note: note, status: status
@@ -34,7 +34,7 @@ todoApp.service('dataService', function($http) {
     this.deleteData = function(id) {
         return $http({
             method: 'DELETE',
-            url: '/taskybird/index.php/api/tasks/'+id,
+            url: '/index.php/api/tasks/'+id,
             //headers: {'Authorization': 'bearer f44ba59438f607a23517c423ccb38e9aa798dfeb'},
             data: {
                 id: id
