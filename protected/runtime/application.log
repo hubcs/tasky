@@ -8737,3 +8737,1199 @@ in C:\xampp\htdocs\taskybird\protected\models\Tasks.php (126)
 in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
 in C:\xampp\htdocs\taskybird\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
 in C:\xampp\htdocs\taskybird\protected\models\Tasks.php (126)
+2014/08/19 09:34:22 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 09:34:22 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 09:34:22 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 09:36:33 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 09:36:33 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 09:36:33 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 09:36:34 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 09:36:34 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 09:36:34 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 10:02:28 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 10:02:28 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 10:02:28 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 10:02:41 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 10:02:41 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 10:02:41 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 10:05:38 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 10:05:38 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 10:05:38 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 10:05:39 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 10:05:39 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 10:05:39 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 10:13:10 [error] [exception.CException] exception 'CException' with message 'TagsController cannot find the requested view "index".' in C:\xampp\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 C:\xampp\htdocs\protected\controllers\TagsController.php(128): CController->render('index', Array)
+#2 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): TagsController->actionIndex()
+#3 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags')
+#13 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/tags
+HTTP_REFERER=http://localhost/index.php/gii/crud/index
+---
+2014/08/19 10:39:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('users')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('users')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/users')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/users
+---
+2014/08/19 10:39:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('users')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('users')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/users/inde...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/users/index
+---
+2014/08/19 10:39:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('users')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('users')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/users/admi...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/users/admin
+---
+2014/08/19 10:40:17 [warning] [application] Failed to set unsafe attribute "email" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:40:17 [warning] [application] Failed to set unsafe attribute "date_entered" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:40:17 [warning] [application] Failed to set unsafe attribute "date_updated" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:40:17 [warning] [application] Failed to set unsafe attribute "date_created" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:40:17 [error] [php] Undefined variable: user (C:\xampp\htdocs\protected\models\Users.php:150)
+Stack trace:
+#0 C:\xampp\htdocs\protected\controllers\UsersController.php(73): Users->save()
+#1 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#2 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): UsersController->runAction()
+#4 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): UsersController->filterAccessControl()
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\CController.php(265): UsersController->runActionWithFilters()
+#10 C:\xampp\yii\framework\web\CWebApplication.php(282): UsersController->run()
+#11 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/users/create
+in C:\xampp\htdocs\protected\models\Users.php (150)
+in C:\xampp\htdocs\protected\controllers\UsersController.php (73)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:41:45 [warning] [application] Failed to set unsafe attribute "email" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:41:45 [warning] [application] Failed to set unsafe attribute "date_entered" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:41:45 [warning] [application] Failed to set unsafe attribute "date_updated" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:41:45 [warning] [application] Failed to set unsafe attribute "date_created" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:42:53 [warning] [application] Failed to set unsafe attribute "email" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:42:53 [warning] [application] Failed to set unsafe attribute "date_entered" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:42:53 [warning] [application] Failed to set unsafe attribute "date_updated" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:42:53 [warning] [application] Failed to set unsafe attribute "date_created" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:42:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null. The SQL statement executed was: insert into tags (name, user_id, date_created) values (:name, :user_id, :created).
+in C:\xampp\htdocs\protected\models\Users.php (151)
+in C:\xampp\htdocs\protected\controllers\UsersController.php (73)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:42:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null. The SQL statement executed was: insert into tags (name, user_id, date_created) values (:name, :user_id, :created)' in C:\xampp\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\protected\models\Users.php(151): CDbCommand->execute(Array)
+#1 C:\xampp\yii\framework\db\ar\CActiveRecord.php(1071): Users->beforeSave()
+#2 C:\xampp\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#3 C:\xampp\htdocs\protected\controllers\UsersController.php(73): CActiveRecord->save()
+#4 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#5 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#14 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/create')
+#15 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php/users/create
+HTTP_REFERER=http://localhost/index.php/users/create
+---
+2014/08/19 10:47:26 [warning] [application] Failed to set unsafe attribute "email" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:47:26 [warning] [application] Failed to set unsafe attribute "date_entered" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:47:26 [warning] [application] Failed to set unsafe attribute "date_updated" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 10:47:26 [warning] [application] Failed to set unsafe attribute "date_created" of "Users".
+in C:\xampp\htdocs\protected\controllers\UsersController.php (72)
+in C:\xampp\htdocs\index.php (13)
+2014/08/19 12:35:08 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 12:35:08 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 12:35:08 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 12:35:28 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 12:35:28 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 12:35:28 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 12:35:30 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 12:35:30 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 12:35:30 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:14:46 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:14:46 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:14:46 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:16:04 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:16:04 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:16:04 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:18:58 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:18:58 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:18:58 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:24:55 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:24:55 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:24:55 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:24:58 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:24:58 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:24:58 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 14:59:43 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php:147)
+Stack trace:
+#0 C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array()
+#1 C:\xampp\htdocs\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit()
+#2 unknown(0): ERestBehavior->emitRest()
+#3 C:\xampp\yii\framework\base\CComponent.php(261): call_user_func_array()
+#4 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TagsController->__call()
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TagsController->emitRest()
+#6 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(31): EActionRestPOST->handlePost()
+#7 unknown(0): EActionRestPOST->run()
+#8 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#9 C:\xampp\yii\framework\web\actions\CAction.php(74): EActionRestPOST->runWithParamsInternal()
+#10 C:\xampp\yii\framework\web\CController.php(308): EActionRestPOST->runWithParams()
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): TagsController->runAction()
+#12 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter()
+#14 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): ERestFilter->filter()
+#15 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\xampp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): TagsController->filterAccessControl()
+#18 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\xampp\yii\framework\web\CController.php(265): TagsController->runActionWithFilters()
+#21 C:\xampp\yii\framework\web\CWebApplication.php(282): TagsController->run()
+#22 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/api/tags
+in C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php (147)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (787)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php (170)
+2014/08/19 15:03:45 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php:147)
+Stack trace:
+#0 C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array()
+#1 C:\xampp\htdocs\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit()
+#2 unknown(0): ERestBehavior->emitRest()
+#3 C:\xampp\yii\framework\base\CComponent.php(261): call_user_func_array()
+#4 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TagsController->__call()
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TagsController->emitRest()
+#6 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(31): EActionRestPOST->handlePost()
+#7 unknown(0): EActionRestPOST->run()
+#8 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#9 C:\xampp\yii\framework\web\actions\CAction.php(74): EActionRestPOST->runWithParamsInternal()
+#10 C:\xampp\yii\framework\web\CController.php(308): EActionRestPOST->runWithParams()
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): TagsController->runAction()
+#12 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter()
+#14 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): ERestFilter->filter()
+#15 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\xampp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): TagsController->filterAccessControl()
+#18 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\xampp\yii\framework\web\CController.php(265): TagsController->runActionWithFilters()
+#21 C:\xampp\yii\framework\web\CWebApplication.php(282): TagsController->run()
+#22 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/api/tags
+in C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php (147)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (787)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php (170)
+2014/08/19 15:06:07 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php:147)
+Stack trace:
+#0 C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array()
+#1 C:\xampp\htdocs\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit()
+#2 unknown(0): ERestBehavior->emitRest()
+#3 C:\xampp\yii\framework\base\CComponent.php(261): call_user_func_array()
+#4 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TagsController->__call()
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TagsController->emitRest()
+#6 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(31): EActionRestPOST->handlePost()
+#7 unknown(0): EActionRestPOST->run()
+#8 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#9 C:\xampp\yii\framework\web\actions\CAction.php(74): EActionRestPOST->runWithParamsInternal()
+#10 C:\xampp\yii\framework\web\CController.php(308): EActionRestPOST->runWithParams()
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): TagsController->runAction()
+#12 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter()
+#14 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): ERestFilter->filter()
+#15 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\xampp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): TagsController->filterAccessControl()
+#18 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\xampp\yii\framework\web\CController.php(265): TagsController->runActionWithFilters()
+#21 C:\xampp\yii\framework\web\CWebApplication.php(282): TagsController->run()
+#22 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/api/tags
+in C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php (147)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (787)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php (170)
+2014/08/19 15:06:48 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php:147)
+Stack trace:
+#0 C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array()
+#1 C:\xampp\htdocs\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit()
+#2 unknown(0): ERestBehavior->emitRest()
+#3 C:\xampp\yii\framework\base\CComponent.php(261): call_user_func_array()
+#4 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TagsController->__call()
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TagsController->emitRest()
+#6 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(31): EActionRestPOST->handlePost()
+#7 unknown(0): EActionRestPOST->run()
+#8 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#9 C:\xampp\yii\framework\web\actions\CAction.php(74): EActionRestPOST->runWithParamsInternal()
+#10 C:\xampp\yii\framework\web\CController.php(308): EActionRestPOST->runWithParams()
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): TagsController->runAction()
+#12 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter()
+#14 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): ERestFilter->filter()
+#15 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\xampp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): TagsController->filterAccessControl()
+#18 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\xampp\yii\framework\web\CController.php(265): TagsController->runActionWithFilters()
+#21 C:\xampp\yii\framework\web\CWebApplication.php(282): TagsController->run()
+#22 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/api/tags
+in C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php (147)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (787)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php (170)
+2014/08/19 15:06:55 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php:147)
+Stack trace:
+#0 C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array()
+#1 C:\xampp\htdocs\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit()
+#2 unknown(0): ERestBehavior->emitRest()
+#3 C:\xampp\yii\framework\base\CComponent.php(261): call_user_func_array()
+#4 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TagsController->__call()
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TagsController->emitRest()
+#6 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(31): EActionRestPOST->handlePost()
+#7 unknown(0): EActionRestPOST->run()
+#8 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#9 C:\xampp\yii\framework\web\actions\CAction.php(74): EActionRestPOST->runWithParamsInternal()
+#10 C:\xampp\yii\framework\web\CController.php(308): EActionRestPOST->runWithParams()
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): TagsController->runAction()
+#12 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter()
+#14 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): ERestFilter->filter()
+#15 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\xampp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): TagsController->filterAccessControl()
+#18 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\xampp\yii\framework\web\CController.php(265): TagsController->runActionWithFilters()
+#21 C:\xampp\yii\framework\web\CWebApplication.php(282): TagsController->run()
+#22 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/api/tags
+in C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php (147)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (787)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php (170)
+2014/08/19 15:07:59 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 15:07:59 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 15:07:59 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 15:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'RESOURCE '3' NOT FOUND' in C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php:87
+Stack trace:
+#0 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\ERestBaseAction.php(64): ERestResourceHelper->prepareRestModel('3')
+#1 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestGET.php(52): ERestBaseAction->getModel('3')
+#2 [internal function]: EActionRestGET->run('3', NULL, NULL)
+#3 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestGET), Array)
+#4 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestGET), Object(ReflectionMethod), Array)
+#5 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#6 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestGET))
+#7 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#8 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#9 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#16 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#17 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags/REST.GET')
+#18 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php/api/tags/3
+---
+2014/08/19 15:25:23 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php:147)
+Stack trace:
+#0 C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array()
+#1 C:\xampp\htdocs\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit()
+#2 unknown(0): ERestBehavior->emitRest()
+#3 C:\xampp\yii\framework\base\CComponent.php(261): call_user_func_array()
+#4 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TagsController->__call()
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(65): TagsController->emitRest()
+#6 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPOST.php(31): EActionRestPOST->handlePost()
+#7 unknown(0): EActionRestPOST->run()
+#8 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#9 C:\xampp\yii\framework\web\actions\CAction.php(74): EActionRestPOST->runWithParamsInternal()
+#10 C:\xampp\yii\framework\web\CController.php(308): EActionRestPOST->runWithParams()
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): TagsController->runAction()
+#12 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter()
+#14 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): ERestFilter->filter()
+#15 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\xampp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): TagsController->filterAccessControl()
+#18 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\xampp\yii\framework\web\CController.php(265): TagsController->runActionWithFilters()
+#21 C:\xampp\yii\framework\web\CWebApplication.php(282): TagsController->run()
+#22 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/api/tags
+in C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php (147)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (787)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php (170)
+2014/08/19 15:28:06 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 15:28:06 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 15:37:40 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 15:37:40 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 15:58:47 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 15:58:47 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 15:58:55 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 15:58:55 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 15:59:18 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 15:59:18 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:01:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php:50
+Stack trace:
+#0 [internal function]: EActionRestDELETE->run('tags', NULL, NULL)
+#1 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestDELETE), Array)
+#2 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestDELETE), Object(ReflectionMethod), Array)
+#3 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestDELETE))
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestDELETE), Array)
+#14 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.DELETE')
+#15 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags/REST.DELET...')
+#16 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/api/tags/tags
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:02:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php:50
+Stack trace:
+#0 [internal function]: EActionRestDELETE->run('tags', NULL, NULL)
+#1 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestDELETE), Array)
+#2 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestDELETE), Object(ReflectionMethod), Array)
+#3 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestDELETE))
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestDELETE), Array)
+#14 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.DELETE')
+#15 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags/REST.DELET...')
+#16 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/api/tags/tags
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:02:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php:50
+Stack trace:
+#0 [internal function]: EActionRestDELETE->run('tags', NULL, NULL)
+#1 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestDELETE), Array)
+#2 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestDELETE), Object(ReflectionMethod), Array)
+#3 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestDELETE))
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestDELETE), Array)
+#14 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.DELETE')
+#15 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags/REST.DELET...')
+#16 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/api/tags/tags
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:02:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php:50
+Stack trace:
+#0 [internal function]: EActionRestDELETE->run('tags', NULL, NULL)
+#1 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestDELETE), Array)
+#2 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestDELETE), Object(ReflectionMethod), Array)
+#3 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestDELETE))
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestDELETE), Array)
+#14 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.DELETE')
+#15 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags/REST.DELET...')
+#16 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/api/tags/tags
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:06:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'RESOURCE '6' NOT FOUND' in C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php:87
+Stack trace:
+#0 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\ERestBaseAction.php(64): ERestResourceHelper->prepareRestModel('6')
+#1 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(67): ERestBaseAction->getModel('6')
+#2 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(47): EActionRestDELETE->handleDelete('6')
+#3 [internal function]: EActionRestDELETE->run('6', NULL, NULL)
+#4 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestDELETE), Array)
+#5 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestDELETE), Object(ReflectionMethod), Array)
+#6 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestDELETE))
+#8 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestDELETE), Array)
+#17 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.DELETE')
+#18 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags/REST.DELET...')
+#19 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/api/tags/6
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:06:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'RESOURCE '5' NOT FOUND' in C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php:87
+Stack trace:
+#0 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\ERestBaseAction.php(64): ERestResourceHelper->prepareRestModel('5')
+#1 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(67): ERestBaseAction->getModel('5')
+#2 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(47): EActionRestDELETE->handleDelete('5')
+#3 [internal function]: EActionRestDELETE->run('5', NULL, NULL)
+#4 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestDELETE), Array)
+#5 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestDELETE), Object(ReflectionMethod), Array)
+#6 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestDELETE))
+#8 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestDELETE), Array)
+#17 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.DELETE')
+#18 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags/REST.DELET...')
+#19 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/api/tags/5
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:06:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'RESOURCE '4' NOT FOUND' in C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php:87
+Stack trace:
+#0 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\ERestBaseAction.php(64): ERestResourceHelper->prepareRestModel('4')
+#1 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(67): ERestBaseAction->getModel('4')
+#2 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(47): EActionRestDELETE->handleDelete('4')
+#3 [internal function]: EActionRestDELETE->run('4', NULL, NULL)
+#4 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestDELETE), Array)
+#5 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestDELETE), Object(ReflectionMethod), Array)
+#6 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestDELETE))
+#8 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestDELETE), Array)
+#17 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.DELETE')
+#18 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags/REST.DELET...')
+#19 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/api/tags/4
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:07:26 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:07:26 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:08:09 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:08:09 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:08:09 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:08:09 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:08:13 [error] [exception.CHttpException.400] exception 'CHttpException' with message '{"name":["Name cannot be blank."]}' in C:\xampp\htdocs\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php:852
+Stack trace:
+#0 [internal function]: ERestEventListenerRegistry->{closure}(Object(Tags))
+#1 C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit('model.save', Array)
+#3 [internal function]: ERestBehavior->emitRest('model.save', Array)
+#4 C:\xampp\yii\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPUT.php(72): CComponent->__call('emitRest', Array)
+#6 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPUT.php(72): TagsController->emitRest('model.save', Array)
+#7 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPUT.php(47): EActionRestPUT->handlePut('7')
+#8 [internal function]: EActionRestPUT->run('7', NULL, NULL)
+#9 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPUT), Array)
+#10 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPUT), Object(ReflectionMethod), Array)
+#11 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#12 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPUT))
+#13 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#14 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#15 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPUT), Array)
+#22 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.PUT')
+#23 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags/REST.PUT')
+#24 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/index.php/api/tags/7
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:09:07 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:09:07 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:09:07 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:09:07 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:09:19 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:09:19 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:09:19 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'RESOURCE '3' NOT FOUND' in C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php:87
+Stack trace:
+#0 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\ERestBaseAction.php(64): ERestResourceHelper->prepareRestModel('3')
+#1 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPUT.php(67): ERestBaseAction->getModel('3')
+#2 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPUT.php(47): EActionRestPUT->handlePut('3')
+#3 [internal function]: EActionRestPUT->run('3', NULL, NULL)
+#4 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPUT), Array)
+#5 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPUT), Object(ReflectionMethod), Array)
+#6 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPUT))
+#8 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPUT), Array)
+#17 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.PUT')
+#18 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.PUT')
+#19 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/api/tasks/3
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'RESOURCE '3' NOT FOUND' in C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php:87
+Stack trace:
+#0 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\ERestBaseAction.php(64): ERestResourceHelper->prepareRestModel('3')
+#1 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(67): ERestBaseAction->getModel('3')
+#2 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(47): EActionRestDELETE->handleDelete('3')
+#3 [internal function]: EActionRestDELETE->run('3', NULL, NULL)
+#4 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestDELETE), Array)
+#5 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestDELETE), Object(ReflectionMethod), Array)
+#6 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestDELETE))
+#8 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestDELETE), Array)
+#17 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.DELETE')
+#18 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.DELE...')
+#19 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/api/tasks/3
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:09:53 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:09:53 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:09:56 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:09:56 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:09:56 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:09:57 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:09:57 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:09:57 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:10:05 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:10:05 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:10:35 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:10:35 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:10:35 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:10:35 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:10:39 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:10:39 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:10:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPUT.php:50
+Stack trace:
+#0 [internal function]: EActionRestPUT->run('undefined', NULL, NULL)
+#1 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPUT), Array)
+#2 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPUT), Object(ReflectionMethod), Array)
+#3 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPUT))
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPUT), Array)
+#14 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.PUT')
+#15 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags/REST.PUT')
+#16 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/api/tags/undefined
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:10:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPUT.php:50
+Stack trace:
+#0 [internal function]: EActionRestPUT->run('undefined', NULL, NULL)
+#1 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPUT), Array)
+#2 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPUT), Object(ReflectionMethod), Array)
+#3 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPUT))
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPUT), Array)
+#14 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.PUT')
+#15 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags/REST.PUT')
+#16 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/api/tags/undefined
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:10:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPUT.php:50
+Stack trace:
+#0 [internal function]: EActionRestPUT->run('undefined', NULL, NULL)
+#1 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPUT), Array)
+#2 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPUT), Object(ReflectionMethod), Array)
+#3 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPUT))
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPUT), Array)
+#14 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.PUT')
+#15 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags/REST.PUT')
+#16 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/api/tags/undefined
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:10:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPUT.php:50
+Stack trace:
+#0 [internal function]: EActionRestPUT->run('undefined', NULL, NULL)
+#1 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPUT), Array)
+#2 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPUT), Object(ReflectionMethod), Array)
+#3 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPUT))
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPUT), Array)
+#14 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.PUT')
+#15 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags/REST.PUT')
+#16 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/api/tags/undefined
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPUT.php:50
+Stack trace:
+#0 [internal function]: EActionRestPUT->run('undefined', NULL, NULL)
+#1 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPUT), Array)
+#2 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPUT), Object(ReflectionMethod), Array)
+#3 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPUT))
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPUT), Array)
+#14 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.PUT')
+#15 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags/REST.PUT')
+#16 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/api/tags/undefined
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:10:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPUT.php:50
+Stack trace:
+#0 [internal function]: EActionRestPUT->run('undefined', NULL, NULL)
+#1 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPUT), Array)
+#2 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPUT), Object(ReflectionMethod), Array)
+#3 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPUT))
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPUT), Array)
+#14 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.PUT')
+#15 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tags/REST.PUT')
+#16 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/api/tags/undefined
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:10:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php:50
+Stack trace:
+#0 [internal function]: EActionRestDELETE->run('undefined', NULL, NULL)
+#1 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestDELETE), Array)
+#2 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestDELETE), Object(ReflectionMethod), Array)
+#3 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestDELETE))
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestDELETE), Array)
+#14 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.DELETE')
+#15 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.DELE...')
+#16 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/api/tasks/undefined
+HTTP_REFERER=http://localhost/
+---
+2014/08/19 16:10:54 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:10:54 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:10:54 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:10:54 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:11:54 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:11:54 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:11:54 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:12:57 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:12:57 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:12:58 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:12:58 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:13:59 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:13:59 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:13:59 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:13:59 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)

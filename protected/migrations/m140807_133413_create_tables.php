@@ -38,6 +38,7 @@ class m140807_133413_create_tables extends CDbMigration
             'date_created' => 'DATETIME',
         ));
 
+
         $this->createTable('TaskTagAssoc', array(
            'id' => 'pk',
            'task_id' => 'INT(10) NOT NULL',

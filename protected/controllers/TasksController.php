@@ -33,7 +33,7 @@ class TasksController extends Controller
     {
 	
         $this->onRest('req.cors.access.control.allow.origin', function() {
-            return ['http://taskybird.dopice.sk']; //List of sites allowed to make CORS requests 
+            return ['http://taskybird.com']; //List of sites allowed to make CORS requests
         });
 		
 		
@@ -72,6 +72,7 @@ class TasksController extends Controller
 			),
 		);
 	}
+
 	/**
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed

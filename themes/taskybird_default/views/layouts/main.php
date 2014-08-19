@@ -8,12 +8,13 @@
     <meta name="description" content="Simple Todo Application">
     <meta name="author" content="Alexander Sadovsky">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/images/taskybird_logo3_64x.png" type="image/x-icon" />
     <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/taskybird_default/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/taskybird_default/bootstrap-theme.min.css">
     <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/taskybird_default/custom.css">
-    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/angular.min.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/controllers/todoCtrl.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/services/rest.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/directives/todoFocus.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/directives/todoEscape.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1.11.1.min.js"></script>
@@ -58,7 +59,7 @@
             </ul>
             <form class="navbar-form navbar-left" role="search">
                 <div class="form-group">
-                    <input type="search" class="form-control" placeholder="Search" ng-model="search">
+                    <input type="search" class="form-control" placeholder="Search tasks" ng-model="search">
                 </div>
             </form>
             <ul class="nav navbar-nav navbar-right">

@@ -16,7 +16,7 @@ $this->pageTitle=Yii::app()->name;
                     <ul class="list-group">
                         <li class="list-group-item" ng-class="{editing: tag == editedTag}" ng-repeat="tag in tags" ng-dblclick="editTag(tag)">
                             <div class="view">
-                                <span class="badge">0</span>
+                                <span class="badge">0</span> <!-- SELECT count(id) FROM `tasktagassoc` WHERE user_id = 1 -->
                                 {{tag.name}}
                             </div>
                             <form ng-submit="doneEditingTag(tag)">

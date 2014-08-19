@@ -142,4 +142,21 @@ class Users extends CActiveRecord
     public function validatePassword($password) {
         return $this->hashPassword($password) === $this->password;
     }
+
+    public function beforeSave() {
+        if($this->isNewRecord) {
+            //get max id
+            $maxIDNumber = Yii::app()->db->createCommand()
+                ->select('max(id) as max')
+                ->from('users')
+                ->queryScalar();
+            $this->id = $maxIDNumber + 1;
+
+            //create basic tags
+            $sql = "insert into tags (name, user_id, date_created) values (:name, :user_id, :created)";
+            $parameters = array('name'=>'Emails', ':user_id'=>$this->id, ':created' => date('Y-m-d H:i:s'));
+            Yii::app()->db->createCommand($sql)->execute($parameters);
+        }
+        return parent::beforeSave();
+    }
 }
