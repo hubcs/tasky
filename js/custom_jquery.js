@@ -22,6 +22,8 @@ $(document).ready(function() {
         $("#inputNewTodo").show().focus();
     });
 
+    $( ".task" ).draggable({ revert: "invalid" });
+
 
 
 });

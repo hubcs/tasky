@@ -15,7 +15,7 @@ $this->pageTitle=Yii::app()->name;
                     <span id="tagsHeader"><span class="glyphicon glyphicon-tags"></span> Tags</span><button type="button" class="btn btn-default" style="float:right;" id="buttonNewTag"><span class="glyphicon glyphicon-plus"></span> new tag</button>
                     <ul class="list-group">
                         <li class="list-group-item" ng-class="{editing: tag == editedTag}" ng-repeat="tag in tags" ng-dblclick="editTag(tag)">
-                            <div class="view">
+                            <div class="view" data-drop="true" jqyoui-droppable="{index: {{$index}}}" data-jqyoui-options="{tolerance: 'pointer'}" onDrop="onDropTag('task', 'tag')">
                                 <span class="badge">0</span> <!-- SELECT count(id) FROM `tasktagassoc` WHERE user_id = 1 -->
                                 {{tag.name}}
                             </div>
@@ -42,13 +42,11 @@ $this->pageTitle=Yii::app()->name;
                 </div>
             </div>
 
-
-
             <div class="row">
                 <div class="col-md-12">
                     <ul id="todo_ul">
-                        <li ng-class="{finished_text: todo.finished, editing: todo == editedTodo}"" ng-repeat="todo in todos | filter:search | orderBy:'status'" ng-dblclick="editTodo(todo)">
-                        <div class="view">
+                        <li ng-class="{finished_text: todo.finished, editing: todo == editedTodo}" ng-repeat="todo in todos | filter:search | orderBy:'status'" ng-dblclick="editTodo(todo)">
+                        <div class="view" data-drag="true" data-jqyoui-options="{revert: true}" jqyoui-draggable="{index: {{$index}},animate:true}">
                             <span ng-class="todo.status == 4 ? 'finished glyphicon glyphicon-ok' : 'unfinished glyphicon glyphicon-ok'" ng-click="toggleTodo(todo)"></span>{{ todo.note }}
                             <span class="deleteTodo glyphicon glyphicon-remove" ng-click="deleteTodo(todo)"></span>
                         </div>

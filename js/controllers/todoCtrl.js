@@ -1,4 +1,4 @@
-var todoApp = angular.module('todoApp', []);
+var todoApp = angular.module('todoApp', ['ngDragDrop']);
 
 todoApp.controller('TodoCtrl', ['$scope', 'TodoRest', 'TagRest', function($scope, TodoRest, TagRest) {
 
@@ -111,5 +111,9 @@ todoApp.controller('TodoCtrl', ['$scope', 'TodoRest', 'TagRest', function($scope
         $scope.tags[$scope.tags.indexOf(tag)] = $scope.originalTag;
         $scope.doneEditing($scope.originalTag);
     };
+
+    onDropTag = function(task, tag) {
+        console.log(task+" has been successfully dropped into "+tag);
+    }
 
 }]);

@@ -12,13 +12,15 @@
     <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/taskybird_default/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/taskybird_default/bootstrap-theme.min.css">
     <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/taskybird_default/custom.css">
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1.11.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/angular.min.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/angular-dragdrop.min.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/controllers/todoCtrl.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/services/rest.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/directives/todoFocus.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/directives/todoEscape.js"></script>
-    <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1.11.1.min.js"></script>
-    <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/custom_jquery.js"></script>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -41,7 +43,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
+            <!--ul class="nav navbar-nav">
                 <li class="active"><a href="#">Link</a></li>
                 <li><a href="#">Link</a></li>
                 <li class="dropdown">
@@ -56,7 +58,7 @@
                         <li><a href="#">One more separated link</a></li>
                     </ul>
                 </li>
-            </ul>
+            </ul-->
             <form class="navbar-form navbar-left" role="search">
                 <div class="form-group">
                     <input type="search" class="form-control" placeholder="Search tasks" ng-model="search">
@@ -70,7 +72,7 @@
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php/site/version"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/thunderbird_logo-only_32x.png" />Thunderbird addon</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">separate link</a></li>
+                        <?php if (!Yii::app()->user->isGuest): ?><li><a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php/users/admin">Users</a></li> <?php endif; ?>
                     </ul>
                 </li>
             </ul>

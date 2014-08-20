@@ -9933,3 +9933,1135 @@ in C:\xampp\htdocs\protected\models\Tags.php (116)
 in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
 in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
 in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:52:52 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:52:52 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:52:54 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:52:54 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 16:52:58 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:52:58 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:52:58 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:53:04 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:53:04 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 16:53:04 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/19 17:00:30 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 17:00:30 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 17:00:30 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 17:00:30 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 17:00:33 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 17:00:33 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 17:00:34 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/19 17:00:34 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:01:31 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:01:31 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:01:31 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:01:31 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:01:33 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:01:33 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:01:34 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:01:34 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:08:56 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:08:56 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:08:56 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:08:56 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:08:58 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:08:58 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:08:58 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 09:08:58 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 10:14:39 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:14:39 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:14:39 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:22:37 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 10:22:37 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 10:22:38 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 10:22:38 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 10:22:41 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 10:22:41 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 10:22:44 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 10:22:44 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 10:22:45 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 10:22:45 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 10:22:48 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 10:22:48 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 10:22:49 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 10:22:49 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 10:23:11 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:23:11 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:23:11 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:51:58 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:51:58 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:51:58 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:51:59 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:51:59 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:51:59 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:53:25 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:53:25 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:53:25 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:53:25 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:53:25 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:53:25 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:53:28 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:53:28 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 10:53:28 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:28:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'RESOURCE '2' NOT FOUND' in C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php:87
+Stack trace:
+#0 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\ERestBaseAction.php(64): ERestResourceHelper->prepareRestModel('2')
+#1 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(67): ERestBaseAction->getModel('2')
+#2 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(47): EActionRestDELETE->handleDelete('2')
+#3 [internal function]: EActionRestDELETE->run('2', NULL, NULL)
+#4 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestDELETE), Array)
+#5 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestDELETE), Object(ReflectionMethod), Array)
+#6 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestDELETE))
+#8 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestDELETE), Array)
+#17 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.DELETE')
+#18 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.DELE...')
+#19 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/api/tasks/2
+HTTP_REFERER=http://localhost/index.php
+---
+2014/08/20 11:34:17 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:34:17 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:34:17 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:34:37 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:34:37 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:34:37 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:34:40 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:34:40 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:34:40 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:56:42 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:56:42 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:56:42 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:56:56 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 11:56:56 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 11:57:04 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 11:57:04 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 11:57:04 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 11:57:04 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 11:58:24 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:58:24 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:58:24 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:58:24 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:58:24 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 11:58:24 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:03:50 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:03:50 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:03:50 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:03:51 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:03:51 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:03:51 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:13:45 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 12:13:45 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 12:13:45 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 12:13:45 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 12:16:03 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:16:03 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:16:03 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:17:46 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:17:46 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:17:46 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:29:58 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:29:58 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:29:58 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:30:08 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:30:08 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:30:08 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:30:54 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:30:54 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:30:54 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:30:55 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:30:55 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:30:55 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:14 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:14 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:14 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:16 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:16 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:16 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:16 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:16 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:16 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:18 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:18 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:18 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:25 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:25 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:25 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:27 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:27 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:27 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:27 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:27 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:27 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:28 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:28 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:28 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:29 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:29 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:29 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:30 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:30 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:30 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:32 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:32 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:32 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:32 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:32 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:47:32 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 12:51:38 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 12:51:38 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 12:52:39 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yii_taskybird`.`tasktagassoc`, CONSTRAINT `FK_task` FOREIGN KEY (`task_id`) REFERENCES `tasks` (`id`)). The SQL statement executed was: DELETE FROM `tasks` WHERE `tasks`.`id`=7.
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (885)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php (170)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\behaviors\ERestBehavior.php (109)
+2014/08/20 12:52:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yii_taskybird`.`tasktagassoc`, CONSTRAINT `FK_task` FOREIGN KEY (`task_id`) REFERENCES `tasks` (`id`)). The SQL statement executed was: DELETE FROM `tasks` WHERE `tasks`.`id`=7' in C:\xampp\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\yii\framework\db\ar\CActiveRecord.php(1802): CDbCommand->execute()
+#1 C:\xampp\yii\framework\db\ar\CActiveRecord.php(1222): CActiveRecord->deleteByPk('7')
+#2 C:\xampp\htdocs\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php(885): CActiveRecord->delete()
+#3 [internal function]: ERestEventListenerRegistry->{closure}(Object(Tasks))
+#4 C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit('model.delete', Array)
+#6 [internal function]: ERestBehavior->emitRest('model.delete', Array)
+#7 C:\xampp\yii\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(69): CComponent->__call('emitRest', Array)
+#9 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(69): TasksController->emitRest('model.delete', Array)
+#10 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(47): EActionRestDELETE->handleDelete('7')
+#11 [internal function]: EActionRestDELETE->run('7', NULL, NULL)
+#12 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestDELETE), Array)
+#13 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestDELETE), Object(ReflectionMethod), Array)
+#14 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#15 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestDELETE))
+#16 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#17 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#18 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestDELETE), Array)
+#25 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.DELETE')
+#26 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.DELE...')
+#27 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/index.php/api/tasks/7
+HTTP_REFERER=http://localhost/
+---
+2014/08/20 13:14:19 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:14:19 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:14:19 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:14:19 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:14:19 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:14:19 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:15:30 [warning] [application] Failed to set unsafe attribute "id" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 13:15:30 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tags".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tags.php (116)
+2014/08/20 13:15:58 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:15:58 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:15:58 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:18:43 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:18:43 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:18:43 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:26:35 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:26:35 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:26:35 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:26:37 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:26:37 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:26:37 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:57:05 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:57:05 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:57:05 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:57:12 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yii_taskybird`.`tasktagassoc`, CONSTRAINT `FK_task` FOREIGN KEY (`task_id`) REFERENCES `tasks` (`id`)). The SQL statement executed was: DELETE FROM `tasks` WHERE `tasks`.`id`=7.
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php (885)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php (170)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\behaviors\ERestBehavior.php (109)
+2014/08/20 13:57:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yii_taskybird`.`tasktagassoc`, CONSTRAINT `FK_task` FOREIGN KEY (`task_id`) REFERENCES `tasks` (`id`)). The SQL statement executed was: DELETE FROM `tasks` WHERE `tasks`.`id`=7' in C:\xampp\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\yii\framework\db\ar\CActiveRecord.php(1802): CDbCommand->execute()
+#1 C:\xampp\yii\framework\db\ar\CActiveRecord.php(1222): CActiveRecord->deleteByPk('7')
+#2 C:\xampp\htdocs\protected\extensions\RestfullYii\events\ERestEventListenerRegistry.php(885): CActiveRecord->delete()
+#3 [internal function]: ERestEventListenerRegistry->{closure}(Object(Tasks))
+#4 C:\xampp\htdocs\protected\extensions\RestfullYii\events\Eventor\Eventor.php(170): call_user_func_array(Object(Closure), Array)
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\behaviors\ERestBehavior.php(109): Eventor->emit('model.delete', Array)
+#6 [internal function]: ERestBehavior->emitRest('model.delete', Array)
+#7 C:\xampp\yii\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(69): CComponent->__call('emitRest', Array)
+#9 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(69): TasksController->emitRest('model.delete', Array)
+#10 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestDELETE.php(47): EActionRestDELETE->handleDelete('7')
+#11 [internal function]: EActionRestDELETE->run('7', NULL, NULL)
+#12 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestDELETE), Array)
+#13 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestDELETE), Object(ReflectionMethod), Array)
+#14 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#15 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestDELETE))
+#16 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#17 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#18 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestDELETE), Array)
+#25 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.DELETE')
+#26 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.DELE...')
+#27 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/index.php/api/tasks/7
+HTTP_REFERER=http://localhost/
+---
+2014/08/20 13:57:16 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:57:16 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 13:57:16 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 14:12:58 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 14:12:58 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 14:12:58 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:06:15 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:06:15 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:06:15 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:06:15 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:06:15 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:06:15 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:17 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:17 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:17 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Resource Not Found' in C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestPUT.php:50
+Stack trace:
+#0 [internal function]: EActionRestPUT->run('undefined', NULL, NULL)
+#1 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestPUT), Array)
+#2 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestPUT), Object(ReflectionMethod), Array)
+#3 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestPUT))
+#5 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#6 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#7 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestPUT), Array)
+#14 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.PUT')
+#15 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tasks/REST.PUT')
+#16 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/api/tasks/undefined
+HTTP_REFERER=http://localhost/
+---
+2014/08/20 15:16:23 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:23 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:23 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:24 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:24 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:24 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:24 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:24 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:24 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:25 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:25 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:25 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:32 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:32 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:32 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:32 [warning] [application] Failed to set unsafe attribute "id" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:32 [warning] [application] Failed to set unsafe attribute "date_updated" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 15:16:32 [warning] [application] Failed to set unsafe attribute "date_created" of "Tasks".
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (114)
+in C:\xampp\htdocs\protected\extensions\RestfullYii\ARBehaviors\ERestActiveRecordRelationBehavior.php (48)
+in C:\xampp\htdocs\protected\models\Tasks.php (126)
+2014/08/20 16:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Tasktagassocc".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Tasktagassocc')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/Tasktagassocc
+---
+2014/08/20 16:37:04 [error] [exception.CException] exception 'CException' with message 'TasktagassocController cannot find the requested view "index".' in C:\xampp\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\xampp\htdocs\protected\controllers\TasktagassocController.php(7): CController->render('index')
+#2 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): TasktagassocController->actionIndex()
+#3 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Tasktagassoc')
+#8 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/Tasktagassoc
+---
+2014/08/20 16:47:36 [error] [exception.CException] exception 'CException' with message 'TasktagassocController cannot find the requested view "index".' in C:\xampp\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\xampp\htdocs\protected\controllers\TasktagassocController.php(7): CController->render('index')
+#2 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): TasktagassocController->actionIndex()
+#3 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Tasktagassoc')
+#8 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/Tasktagassoc
+---
+2014/08/20 16:47:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Tasktagassoc/RE...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/api/Tasktagassoc
+---
+2014/08/20 16:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Tasktagassoc/RE...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/api/Tasktagassoc
+---
+2014/08/20 16:48:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Tasktagassoc/RE...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/api/Tasktagassoc
+---
+2014/08/20 16:50:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'RESOURCE '4' NOT FOUND' in C:\xampp\htdocs\protected\extensions\RestfullYii\components\ERestResourceHelper.php:87
+Stack trace:
+#0 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\ERestBaseAction.php(64): ERestResourceHelper->prepareRestModel('4')
+#1 C:\xampp\htdocs\protected\extensions\RestfullYii\actions\EActionRestGET.php(52): ERestBaseAction->getModel('4')
+#2 [internal function]: EActionRestGET->run('4', NULL, NULL)
+#3 C:\xampp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EActionRestGET), Array)
+#4 C:\xampp\yii\framework\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(EActionRestGET), Object(ReflectionMethod), Array)
+#5 C:\xampp\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#6 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(EActionRestGET))
+#7 C:\xampp\htdocs\protected\extensions\RestfullYii\filters\ERestFilter.php(88): CFilterChain->run()
+#8 C:\xampp\yii\framework\web\filters\CFilter.php(38): ERestFilter->preFilter(Object(CFilterChain))
+#9 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(EActionRestGET), Array)
+#16 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#17 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Tasktagassoc/RE...')
+#18 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php/api/Tasktagassoc/4
+---
+2014/08/20 17:06:39 [error] [exception.CException] exception 'CException' with message 'CActiveDataProvider and its behaviors do not have a method or closure named "getTagsCounts".' in C:\xampp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\protected\views\tasktagassoc\index.php(10): CComponent->__call('getTagsCounts', Array)
+#1 C:\xampp\htdocs\protected\views\tasktagassoc\index.php(10): CActiveDataProvider->getTagsCounts()
+#2 C:\xampp\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\protected\controllers\TasktagassocController.php(10): CController->render('index', Array)
+#7 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): TasktagassocController->actionIndex()
+#8 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Tasktagassoc')
+#18 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php/Tasktagassoc/
+---
+2014/08/20 17:06:48 [error] [exception.CException] exception 'CException' with message 'CActiveDataProvider and its behaviors do not have a method or closure named "getTagsCounts".' in C:\xampp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\protected\views\tasktagassoc\index.php(10): CComponent->__call('getTagsCounts', Array)
+#1 C:\xampp\htdocs\protected\views\tasktagassoc\index.php(10): CActiveDataProvider->getTagsCounts()
+#2 C:\xampp\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\protected\controllers\TasktagassocController.php(10): CController->render('index', Array)
+#7 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): TasktagassocController->actionIndex()
+#8 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Tasktagassoc')
+#18 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php/Tasktagassoc/
+---
