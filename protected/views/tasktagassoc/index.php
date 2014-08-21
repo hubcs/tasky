@@ -1,12 +1,17 @@
 <?php
 /* @var $this TasktagassocController */
-/* @var $dataProvider CActiveDataProvider */
+/* @var $tagsCounts  array which tells how many tasks are in all the tags of an user */
+
 ?>
-<h1><?php echo $this->id . '/' . $this->action->id; ?></h1>
+
+<h1>Tasktagassocs</h1>
+
+<pre>
+<?php
+var_dump($tagsCounts);
+?>
+</pre>
 
 <?php
-
-
-echo $dataProvider->getTagsCounts();
-
+echo json_encode($tagsCounts);
 ?>

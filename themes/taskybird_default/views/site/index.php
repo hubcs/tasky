@@ -16,7 +16,7 @@ $this->pageTitle=Yii::app()->name;
                     <ul class="list-group">
                         <li class="list-group-item" ng-class="{editing: tag == editedTag}" ng-repeat="tag in tags" ng-dblclick="editTag(tag)">
                             <div class="view" data-drop="true" jqyoui-droppable="{index: {{$index}}}" data-jqyoui-options="{tolerance: 'pointer'}" onDrop="onDropTag('task', 'tag')">
-                                <span class="badge">0</span> <!-- SELECT count(id) FROM `tasktagassoc` WHERE user_id = 1 -->
+                                <span class="badge">{{ tag.tasktagassocs.length }}</span>
                                 {{tag.name}}
                             </div>
                             <form ng-submit="doneEditingTag(tag)">

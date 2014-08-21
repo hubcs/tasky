@@ -100,6 +100,8 @@ class Tasktagassoc extends CActiveRecord
 		));
 	}
 
+
+
 	/**
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
@@ -110,14 +112,5 @@ class Tasktagassoc extends CActiveRecord
 	{
 		return parent::model($className);
 	}
-
-    public function getTagsCounts()
-    {
-        $sql = "SELECT tag_id, count(*) FROM `tasktagassoc` WHERE user_id = :user_id GROUP BY tag_id";
-        $parameters = array(':user_id'=>Yii::app()->user->id);
-        $data = Yii::app()->db->createCommand($sql)->execute($parameters);
-        $data->queryRow();
-        return $data;
-    }
 
 }

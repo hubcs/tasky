@@ -44,6 +44,7 @@ class TasksController extends Controller
 		$this->onRest('req.auth.ajax.user', function() { // THIS ALLOWS EVERYONE TO DO EVERYTHING
 			return true;
 		});
+
 		
     }
 	
